@@ -1,0 +1,501 @@
+Product ID,Company,Plant,Equipment Type,Air temperature [K],Process temperature [K],Rotational speed [rpm],Torque [Nm],Tool wear [min],Pressure bar,Vibration mm/s,Motor Current A,Expected Status
+RIL_EQP_0001,Reliance,Jamnagar Refinery,Centrifugal Pump,299.81,310.34,1517,30.05,65,48.94,2.56,25.64,Healthy
+RIL_EQP_0002,Reliance,Jamnagar Refinery,Pipeline Pump,302.1,311.07,1486,49.46,126,48.22,4.85,36.8,Warning
+RIL_EQP_0003,Reliance,Jamnagar Refinery,Gas Compressor,301.13,311.64,1433,42.15,80,46.57,2.63,25.12,Healthy
+RIL_EQP_0004,Reliance,Jamnagar Refinery,Motor,296.77,306.82,1539,29.81,37,46.89,2.22,23.98,Healthy
+RIL_EQP_0005,Reliance,Jamnagar Refinery,Motor,298.17,307.8,1584,38.68,20,45.94,1.77,24.27,Healthy
+RIL_EQP_0006,Reliance,Jamnagar Refinery,Gas Compressor,298.83,309.97,1753,49.97,18,54.84,2.78,19.39,Healthy
+RIL_EQP_0007,Reliance,Jamnagar Refinery,Motor,299.96,311.08,1411,43.26,61,48.38,2.92,18.45,Healthy
+RIL_EQP_0008,Reliance,Jamnagar Refinery,Pipeline Pump,296.33,306.44,1957,37.65,62,48.51,2.28,23.53,Healthy
+RIL_EQP_0009,Reliance,Jamnagar Refinery,Gas Compressor,298.97,308.29,1533,43.94,88,52.64,2.65,25.34,Healthy
+RIL_EQP_0010,Reliance,Jamnagar Refinery,Motor,302.75,312.77,1241,54.0,120,47.8,4.53,39.25,Warning
+RIL_EQP_0011,Reliance,Jamnagar Refinery,Motor,299.02,308.52,1367,54.44,71,42.99,1.36,24.86,Healthy
+RIL_EQP_0012,Reliance,Jamnagar Refinery,Motor,302.67,314.77,1217,50.37,95,70.87,4.95,38.0,Warning
+RIL_EQP_0013,Reliance,Jamnagar Refinery,Gas Compressor,299.85,310.49,1584,33.32,70,48.53,2.82,19.62,Healthy
+RIL_EQP_0014,Reliance,Jamnagar Refinery,Centrifugal Pump,297.75,307.42,1547,45.67,73,50.31,2.03,25.11,Healthy
+RIL_EQP_0015,Reliance,Jamnagar Refinery,Centrifugal Pump,303.02,314.47,1160,67.78,192,74.72,6.92,47.92,Critical
+RIL_EQP_0016,Reliance,Jamnagar Refinery,Motor,298.15,309.38,1677,40.42,57,51.46,1.65,32.7,Healthy
+RIL_EQP_0017,Reliance,Jamnagar Refinery,Gas Compressor,298.64,308.41,1491,34.37,20,44.14,2.59,19.18,Healthy
+RIL_EQP_0018,Reliance,Jamnagar Refinery,Gas Compressor,299.28,308.97,1645,36.74,74,42.49,1.45,26.62,Healthy
+RIL_EQP_0019,Reliance,Jamnagar Refinery,Gas Compressor,298.79,308.48,1515,35.4,5,39.27,2.03,26.09,Healthy
+RIL_EQP_0020,Reliance,Jamnagar Refinery,Pipeline Pump,300.62,309.82,1431,39.06,34,49.22,1.05,26.41,Healthy
+RIL_EQP_0021,Reliance,Jamnagar Refinery,Gas Compressor,299.88,310.29,1212,51.37,95,47.3,4.53,42.81,Warning
+RIL_EQP_0022,Reliance,Jamnagar Refinery,Centrifugal Pump,295.91,306.14,1514,29.19,57,49.77,2.44,21.33,Healthy
+RIL_EQP_0023,Reliance,Jamnagar Refinery,Motor,296.09,305.55,1522,33.87,42,44.58,2.28,25.85,Healthy
+RIL_EQP_0024,Reliance,Jamnagar Refinery,Pipeline Pump,299.48,308.95,1352,33.82,23,45.04,0.97,21.82,Healthy
+RIL_EQP_0025,Reliance,Jamnagar Refinery,Pipeline Pump,302.8,313.72,1372,66.59,120,49.52,3.43,39.62,Warning
+RIL_EQP_0026,Reliance,Jamnagar Refinery,Pipeline Pump,297.69,308.14,1471,31.3,33,43.67,2.16,24.82,Healthy
+RIL_EQP_0027,Reliance,Jamnagar Refinery,Gas Compressor,298.15,307.91,1809,45.89,21,48.72,1.22,20.75,Healthy
+RIL_EQP_0028,Reliance,Jamnagar Refinery,Gas Compressor,298.54,308.14,1838,25.43,84,42.19,2.12,26.09,Healthy
+RIL_EQP_0029,Reliance,Jamnagar Refinery,Centrifugal Pump,296.42,306.21,1794,53.1,43,45.93,1.91,20.65,Healthy
+RIL_EQP_0030,Reliance,Jamnagar Refinery,Centrifugal Pump,305.0,315.0,1177,65.81,239,72.07,8.38,42.6,Critical
+RIL_EQP_0031,Reliance,Jamnagar Refinery,Motor,298.07,307.84,1222,39.86,54,50.53,2.93,18.67,Healthy
+RIL_EQP_0032,Reliance,Jamnagar Refinery,Gas Compressor,304.88,315.0,1160,64.68,192,72.78,7.09,41.64,Critical
+RIL_EQP_0033,Reliance,Jamnagar Refinery,Centrifugal Pump,301.6,310.58,1311,58.84,171,60.74,4.47,41.47,Warning
+RIL_EQP_0034,Reliance,Jamnagar Refinery,Pipeline Pump,301.58,313.31,1160,54.57,98,67.83,5.17,37.3,Warning
+RIL_EQP_0035,Reliance,Jamnagar Refinery,Pipeline Pump,297.25,308.35,1333,28.88,72,49.94,1.75,24.83,Healthy
+RIL_EQP_0036,Reliance,Jamnagar Refinery,Gas Compressor,300.63,310.98,1438,43.41,59,43.84,2.46,24.26,Healthy
+RIL_EQP_0037,Reliance,Jamnagar Refinery,Motor,296.36,305.0,1279,51.97,1,42.26,2.37,21.43,Healthy
+RIL_EQP_0038,Reliance,Jamnagar Refinery,Gas Compressor,301.96,313.77,1449,58.08,104,68.37,3.69,39.34,Warning
+RIL_EQP_0039,Reliance,Jamnagar Refinery,Motor,304.82,315.0,1160,65.65,248,65.54,6.08,47.2,Critical
+RIL_EQP_0040,Reliance,Jamnagar Refinery,Motor,299.02,309.41,1359,29.28,12,46.86,1.61,20.48,Healthy
+RIL_EQP_0041,Reliance,Jamnagar Refinery,Pipeline Pump,296.66,308.28,1601,45.89,72,52.34,2.31,30.65,Healthy
+RIL_EQP_0042,Reliance,Jamnagar Refinery,Motor,298.31,307.63,1244,32.71,41,57.36,1.91,31.93,Healthy
+RIL_EQP_0043,Reliance,Jamnagar Refinery,Gas Compressor,302.09,313.62,1974,40.6,65,49.14,2.15,24.0,Healthy
+RIL_EQP_0044,Reliance,Jamnagar Refinery,Centrifugal Pump,302.75,312.88,1160,57.91,116,52.46,3.73,33.29,Warning
+RIL_EQP_0045,Reliance,Jamnagar Refinery,Gas Compressor,299.83,309.7,1758,39.65,60,47.56,2.08,18.83,Healthy
+RIL_EQP_0046,Reliance,Jamnagar Refinery,Centrifugal Pump,299.52,310.31,1306,25.85,48,45.32,2.69,24.88,Healthy
+RIL_EQP_0047,Reliance,Jamnagar Refinery,Gas Compressor,300.55,310.5,1222,62.48,189,66.1,3.36,37.77,Warning
+RIL_EQP_0048,Reliance,Jamnagar Refinery,Pipeline Pump,297.08,307.02,1611,39.31,38,39.45,2.07,26.55,Healthy
+RIL_EQP_0049,Reliance,Jamnagar Refinery,Gas Compressor,301.33,311.39,1314,57.33,164,58.78,4.68,28.37,Warning
+RIL_EQP_0050,Reliance,Jamnagar Refinery,Gas Compressor,303.68,314.39,1350,63.01,237,69.76,5.73,45.92,Critical
+RIL_EQP_0051,Reliance,Jamnagar Refinery,Motor,298.7,308.61,1789,40.64,76,52.1,2.36,12.5,Healthy
+RIL_EQP_0052,Reliance,Jamnagar Refinery,Pipeline Pump,297.21,306.54,1815,35.0,57,57.46,1.3,19.67,Healthy
+RIL_EQP_0053,Reliance,Jamnagar Refinery,Centrifugal Pump,298.09,308.34,1529,36.86,50,46.48,2.09,26.57,Healthy
+RIL_EQP_0054,Reliance,Jamnagar Refinery,Pipeline Pump,298.26,307.94,1455,49.76,8,51.45,1.05,16.23,Healthy
+RIL_EQP_0055,Reliance,Jamnagar Refinery,Centrifugal Pump,298.78,308.75,1642,36.6,59,54.99,2.39,24.31,Healthy
+RIL_EQP_0056,Reliance,Jamnagar Refinery,Motor,296.52,306.45,1574,42.82,88,39.42,1.87,25.6,Healthy
+RIL_EQP_0057,Reliance,Jamnagar Refinery,Centrifugal Pump,299.92,310.53,1539,43.4,35,46.99,2.07,27.18,Healthy
+RIL_EQP_0058,Reliance,Jamnagar Refinery,Centrifugal Pump,304.45,315.0,1251,76.17,228,90.63,7.7,42.23,Critical
+RIL_EQP_0059,Reliance,Jamnagar Refinery,Centrifugal Pump,304.53,315.0,1329,61.58,208,84.11,8.85,48.41,Critical
+RIL_EQP_0060,Reliance,Jamnagar Refinery,Motor,298.21,308.22,1675,43.07,73,51.6,2.31,27.59,Healthy
+RIL_EQP_0061,Reliance,Jamnagar Refinery,Motor,297.27,307.94,1884,37.79,14,55.5,1.54,23.88,Healthy
+RIL_EQP_0062,Reliance,Jamnagar Refinery,Gas Compressor,300.16,311.47,1532,47.37,36,56.25,1.98,24.52,Healthy
+RIL_EQP_0063,Reliance,Jamnagar Refinery,Gas Compressor,297.49,307.58,1935,34.0,72,52.27,2.26,23.34,Healthy
+RIL_EQP_0064,Reliance,Jamnagar Refinery,Centrifugal Pump,300.6,311.05,1677,50.81,58,46.55,1.48,31.07,Healthy
+RIL_EQP_0065,Reliance,Jamnagar Refinery,Pipeline Pump,299.57,308.96,1619,29.22,37,48.32,1.68,20.49,Healthy
+RIL_EQP_0066,Reliance,Jamnagar Refinery,Gas Compressor,302.59,312.7,1258,71.74,216,63.41,7.55,39.73,Critical
+RIL_EQP_0067,Reliance,Jamnagar Refinery,Centrifugal Pump,301.88,312.12,1334,75.48,182,51.93,4.38,37.91,Warning
+RIL_EQP_0068,Reliance,Jamnagar Refinery,Gas Compressor,300.41,310.42,1479,52.26,187,56.15,4.93,29.97,Warning
+RIL_EQP_0069,Reliance,Jamnagar Refinery,Motor,296.68,306.94,1591,44.36,0,42.27,1.9,18.89,Healthy
+RIL_EQP_0070,Reliance,Jamnagar Refinery,Centrifugal Pump,300.28,310.02,1304,32.56,35,39.95,1.35,26.68,Healthy
+RIL_EQP_0071,Reliance,Jamnagar Refinery,Gas Compressor,298.87,308.9,1454,39.82,64,43.31,2.42,21.21,Healthy
+RIL_EQP_0072,Reliance,Jamnagar Refinery,Gas Compressor,297.89,308.45,1647,17.03,16,49.27,1.13,22.63,Healthy
+RIL_EQP_0073,Reliance,Jamnagar Refinery,Motor,298.08,308.48,1679,31.81,12,43.95,1.98,17.83,Healthy
+RIL_EQP_0074,Reliance,Jamnagar Refinery,Pipeline Pump,303.35,312.64,1292,50.26,172,74.04,3.77,31.6,Warning
+RIL_EQP_0075,Reliance,Jamnagar Refinery,Centrifugal Pump,298.51,308.73,1390,45.91,32,49.36,2.43,22.69,Healthy
+RIL_EQP_0076,Reliance,Jamnagar Refinery,Pipeline Pump,298.24,309.41,1570,38.07,25,45.71,1.74,24.95,Healthy
+RIL_EQP_0077,Reliance,Jamnagar Refinery,Pipeline Pump,301.32,311.92,1381,57.87,183,44.34,3.46,27.17,Warning
+RIL_EQP_0078,Reliance,Jamnagar Refinery,Motor,297.42,307.02,1335,34.77,45,42.38,2.38,25.92,Healthy
+RIL_EQP_0079,Reliance,Jamnagar Refinery,Gas Compressor,298.14,306.51,1467,31.91,25,49.24,2.31,25.3,Healthy
+RIL_EQP_0080,Reliance,Jamnagar Refinery,Centrifugal Pump,297.82,307.33,1736,39.33,9,46.77,2.92,26.31,Healthy
+RIL_EQP_0081,Reliance,Jamnagar Refinery,Centrifugal Pump,297.68,308.74,1587,38.2,3,51.38,2.44,26.2,Healthy
+RIL_EQP_0082,Reliance,Jamnagar Refinery,Gas Compressor,299.04,309.49,1418,52.48,84,41.83,2.15,18.65,Healthy
+RIL_EQP_0083,Reliance,Jamnagar Refinery,Gas Compressor,297.9,307.82,1447,39.09,44,49.71,1.52,23.88,Healthy
+RIL_EQP_0084,Reliance,Jamnagar Refinery,Pipeline Pump,303.28,313.57,1266,70.39,203,73.21,8.02,40.24,Critical
+RIL_EQP_0085,Reliance,Jamnagar Refinery,Gas Compressor,297.73,307.45,1791,24.39,39,42.03,1.32,29.61,Healthy
+RIL_EQP_0086,Reliance,Jamnagar Refinery,Centrifugal Pump,298.11,306.82,1502,44.93,82,49.26,1.95,17.74,Healthy
+RIL_EQP_0087,Reliance,Jamnagar Refinery,Pipeline Pump,298.68,307.88,1667,45.08,47,45.36,2.36,23.56,Healthy
+RIL_EQP_0088,Reliance,Jamnagar Refinery,Pipeline Pump,305.0,315.0,1256,76.52,231,64.23,6.42,41.48,Critical
+RIL_EQP_0089,Reliance,Jamnagar Refinery,Pipeline Pump,301.64,311.99,1492,39.83,104,50.21,4.74,36.76,Warning
+RIL_EQP_0090,Reliance,Jamnagar Refinery,Motor,299.17,310.23,1541,29.94,26,52.37,2.86,20.46,Healthy
+RIL_EQP_0091,Reliance,Jamnagar Refinery,Centrifugal Pump,303.09,313.68,1160,58.55,152,50.17,3.18,25.36,Warning
+RIL_EQP_0092,Reliance,Jamnagar Refinery,Pipeline Pump,297.5,307.77,1654,39.29,18,49.48,2.19,24.55,Healthy
+RIL_EQP_0093,Reliance,Jamnagar Refinery,Pipeline Pump,297.48,307.4,1527,41.43,75,53.51,2.17,20.76,Healthy
+RIL_EQP_0094,Reliance,Jamnagar Refinery,Pipeline Pump,297.58,306.5,1418,39.94,64,48.42,2.93,25.93,Healthy
+RIL_EQP_0095,Reliance,Jamnagar Refinery,Motor,304.7,315.0,1160,64.63,201,68.41,6.99,41.23,Critical
+RIL_EQP_0096,Reliance,Jamnagar Refinery,Centrifugal Pump,302.42,312.11,1160,46.02,170,56.13,3.41,32.86,Warning
+RIL_EQP_0097,Reliance,Jamnagar Refinery,Centrifugal Pump,302.57,312.55,1160,50.4,158,63.25,4.91,35.76,Warning
+RIL_EQP_0098,Reliance,Jamnagar Refinery,Motor,303.73,313.84,1602,52.92,185,66.16,4.77,24.11,Warning
+RIL_EQP_0099,Reliance,Jamnagar Refinery,Gas Compressor,297.03,305.61,1708,54.55,50,46.71,2.43,29.94,Healthy
+RIL_EQP_0100,Reliance,Jamnagar Refinery,Motor,298.47,308.27,1646,45.0,70,50.31,2.21,23.8,Healthy
+RIL_EQP_0101,Reliance,Jamnagar Refinery,Centrifugal Pump,299.58,308.55,1661,44.05,64,42.3,1.7,32.49,Healthy
+RIL_EQP_0102,Reliance,Jamnagar Refinery,Motor,297.04,307.68,1410,22.64,34,50.6,1.54,25.28,Healthy
+RIL_EQP_0103,Reliance,Jamnagar Refinery,Pipeline Pump,299.35,309.5,1160,41.06,5,46.55,2.71,25.58,Healthy
+RIL_EQP_0104,Reliance,Jamnagar Refinery,Motor,297.65,307.02,1545,35.12,89,54.69,1.92,19.1,Healthy
+RIL_EQP_0105,Reliance,Jamnagar Refinery,Centrifugal Pump,299.66,309.52,1510,46.48,4,43.43,0.88,20.59,Healthy
+RIL_EQP_0106,Reliance,Jamnagar Refinery,Gas Compressor,301.75,311.0,1522,56.31,166,61.11,4.54,27.51,Warning
+RIL_EQP_0107,Reliance,Jamnagar Refinery,Centrifugal Pump,299.59,310.5,1679,42.11,81,39.31,1.99,20.17,Healthy
+RIL_EQP_0108,Reliance,Jamnagar Refinery,Centrifugal Pump,299.86,309.1,1541,39.99,78,52.5,1.16,15.16,Healthy
+RIL_EQP_0109,Reliance,Jamnagar Refinery,Pipeline Pump,295.46,305.59,1656,47.89,23,44.89,2.08,26.61,Healthy
+RIL_EQP_0110,Reliance,Jamnagar Refinery,Pipeline Pump,304.84,315.0,1160,70.71,231,70.89,7.78,42.84,Critical
+RIL_EQP_0111,Reliance,Jamnagar Refinery,Centrifugal Pump,297.75,307.0,1580,30.83,60,52.0,2.3,20.94,Healthy
+RIL_EQP_0112,Reliance,Jamnagar Refinery,Pipeline Pump,297.58,306.29,1442,37.6,69,50.61,2.07,27.63,Healthy
+RIL_EQP_0113,Reliance,Jamnagar Refinery,Pipeline Pump,298.05,309.36,1202,34.38,40,42.64,1.9,22.26,Healthy
+RIL_EQP_0114,Reliance,Jamnagar Refinery,Centrifugal Pump,297.44,307.64,1314,33.29,10,48.0,2.37,33.73,Healthy
+RIL_EQP_0115,Reliance,Jamnagar Refinery,Pipeline Pump,297.29,307.21,1582,33.84,6,50.35,0.86,26.21,Healthy
+RIL_EQP_0116,Reliance,Jamnagar Refinery,Motor,298.37,309.54,1322,40.18,37,51.97,2.09,17.54,Healthy
+RIL_EQP_0117,Reliance,Jamnagar Refinery,Pipeline Pump,301.79,311.87,1297,51.94,184,48.48,4.33,31.01,Warning
+RIL_EQP_0118,Reliance,Jamnagar Refinery,Centrifugal Pump,299.12,310.42,1511,31.57,8,40.65,3.1,26.65,Healthy
+RIL_EQP_0119,Reliance,Jamnagar Refinery,Pipeline Pump,300.53,311.62,1306,31.97,16,47.34,1.46,23.61,Healthy
+RIL_EQP_0120,Reliance,Jamnagar Refinery,Centrifugal Pump,300.63,311.36,1548,58.2,99,57.4,3.67,38.15,Warning
+RIL_EQP_0121,Reliance,Jamnagar Refinery,Gas Compressor,298.79,308.81,1752,33.34,88,45.51,1.38,25.75,Healthy
+RIL_EQP_0122,Reliance,Jamnagar Refinery,Pipeline Pump,297.47,306.85,1646,29.18,25,42.93,2.45,23.34,Healthy
+RIL_EQP_0123,Reliance,Jamnagar Refinery,Gas Compressor,298.07,308.07,1578,49.1,54,54.53,2.58,21.48,Healthy
+RIL_EQP_0124,Reliance,Jamnagar Refinery,Pipeline Pump,299.41,310.51,1759,38.1,40,51.64,2.37,24.6,Healthy
+RIL_EQP_0125,Reliance,Jamnagar Refinery,Motor,298.62,307.99,1426,32.39,79,40.0,2.07,23.84,Healthy
+RIL_EQP_0126,Reliance,Jamnagar Refinery,Centrifugal Pump,300.01,311.07,1805,31.94,39,40.84,2.47,29.53,Healthy
+RIL_EQP_0127,Reliance,Jamnagar Refinery,Pipeline Pump,302.48,311.39,1412,59.44,174,68.02,5.34,38.55,Warning
+RIL_EQP_0128,Reliance,Jamnagar Refinery,Centrifugal Pump,300.97,311.9,1215,66.8,95,44.36,4.65,35.6,Warning
+RIL_EQP_0129,Reliance,Jamnagar Refinery,Gas Compressor,301.07,309.93,1259,50.89,95,66.89,3.57,36.26,Warning
+RIL_EQP_0130,Reliance,Jamnagar Refinery,Gas Compressor,299.08,307.29,1927,36.87,75,34.03,1.64,20.5,Healthy
+RIL_EQP_0131,Reliance,Jamnagar Refinery,Pipeline Pump,301.64,311.61,1211,45.73,157,64.57,5.16,32.73,Warning
+RIL_EQP_0132,Reliance,Jamnagar Refinery,Pipeline Pump,300.87,311.43,1389,53.24,102,61.17,4.45,28.73,Warning
+RIL_EQP_0133,Reliance,Jamnagar Refinery,Centrifugal Pump,298.25,309.59,1625,53.77,67,53.88,2.11,21.11,Healthy
+RIL_EQP_0134,Reliance,Jamnagar Refinery,Pipeline Pump,299.14,309.25,1443,44.66,63,48.19,2.42,20.1,Healthy
+RIL_EQP_0135,Reliance,Jamnagar Refinery,Pipeline Pump,299.1,310.06,1725,37.32,32,47.17,2.89,22.84,Healthy
+RIL_EQP_0136,Reliance,Jamnagar Refinery,Centrifugal Pump,301.62,310.63,1160,58.25,157,63.61,4.53,39.73,Warning
+RIL_EQP_0137,Reliance,Jamnagar Refinery,Pipeline Pump,297.57,308.05,1580,33.4,75,50.36,2.04,21.58,Healthy
+RIL_EQP_0138,Reliance,Jamnagar Refinery,Centrifugal Pump,300.2,311.3,1583,38.46,80,40.83,2.86,28.15,Healthy
+RIL_EQP_0139,Reliance,Jamnagar Refinery,Centrifugal Pump,295.77,305.8,1527,43.46,18,45.74,1.88,26.48,Healthy
+RIL_EQP_0140,Reliance,Jamnagar Refinery,Centrifugal Pump,297.81,307.97,1790,44.47,84,53.38,2.03,29.98,Healthy
+RIL_EQP_0141,Reliance,Jamnagar Refinery,Centrifugal Pump,304.02,315.0,1427,61.66,164,57.7,4.03,30.95,Warning
+RIL_EQP_0142,Reliance,Jamnagar Refinery,Centrifugal Pump,299.17,309.5,1907,38.8,0,40.56,2.82,19.12,Healthy
+RIL_EQP_0143,Reliance,Jamnagar Refinery,Centrifugal Pump,298.83,309.16,1289,32.03,81,40.6,2.31,28.73,Healthy
+RIL_EQP_0144,Reliance,Jamnagar Refinery,Centrifugal Pump,299.69,310.44,1431,22.14,54,42.64,1.7,30.17,Healthy
+RIL_EQP_0145,Reliance,Jamnagar Refinery,Motor,297.29,307.41,1316,42.11,68,43.11,1.58,25.5,Healthy
+RIL_EQP_0146,Reliance,Jamnagar Refinery,Centrifugal Pump,301.14,310.31,1442,42.12,56,53.84,0.92,24.35,Healthy
+RIL_EQP_0147,Reliance,Jamnagar Refinery,Pipeline Pump,296.19,305.12,1447,38.47,47,53.04,2.18,27.79,Healthy
+RIL_EQP_0148,Reliance,Jamnagar Refinery,Motor,303.71,314.4,1249,75.16,190,70.82,6.07,47.01,Critical
+RIL_EQP_0149,Reliance,Jamnagar Refinery,Motor,299.98,309.44,1429,44.05,29,45.96,1.78,29.02,Healthy
+RIL_EQP_0150,Reliance,Jamnagar Refinery,Centrifugal Pump,300.97,310.48,1706,37.13,6,49.36,1.87,27.43,Healthy
+RIL_EQP_0151,Reliance,Jamnagar Refinery,Gas Compressor,297.81,309.26,1555,32.59,52,40.55,2.93,21.79,Healthy
+RIL_EQP_0152,Reliance,Jamnagar Refinery,Pipeline Pump,298.98,309.09,1580,55.73,42,37.04,2.11,22.94,Healthy
+RIL_EQP_0153,Reliance,Jamnagar Refinery,Pipeline Pump,298.68,308.47,1583,37.81,25,41.43,2.19,26.86,Healthy
+RIL_EQP_0154,Reliance,Jamnagar Refinery,Motor,303.87,315.0,1493,61.65,182,58.24,5.11,41.85,Warning
+RIL_EQP_0155,Reliance,Jamnagar Refinery,Motor,297.82,307.78,1653,44.7,73,47.61,1.72,30.34,Healthy
+RIL_EQP_0156,Reliance,Jamnagar Refinery,Centrifugal Pump,301.06,310.5,1189,64.98,120,68.25,4.14,36.48,Warning
+RIL_EQP_0157,Reliance,Jamnagar Refinery,Motor,297.07,308.84,1797,40.84,0,43.72,1.89,21.23,Healthy
+RIL_EQP_0158,Reliance,Jamnagar Refinery,Gas Compressor,304.42,315.0,1160,80.0,199,73.9,7.46,42.47,Critical
+RIL_EQP_0159,Reliance,Jamnagar Refinery,Motor,298.4,308.14,1677,45.25,77,51.83,2.49,31.21,Healthy
+RIL_EQP_0160,Reliance,Jamnagar Refinery,Centrifugal Pump,299.82,310.21,1207,36.76,3,43.66,2.12,20.84,Healthy
+RIL_EQP_0161,Reliance,Jamnagar Refinery,Gas Compressor,304.89,315.0,1341,61.62,225,62.41,9.93,51.06,Critical
+RIL_EQP_0162,Reliance,Jamnagar Refinery,Pipeline Pump,298.54,308.49,1201,31.82,80,47.44,1.64,21.66,Healthy
+RIL_EQP_0163,Reliance,Jamnagar Refinery,Motor,301.75,312.47,1391,59.72,138,54.18,5.2,36.22,Warning
+RIL_EQP_0164,Reliance,Jamnagar Refinery,Gas Compressor,298.37,308.23,1510,42.07,66,51.17,2.26,25.36,Healthy
+RIL_EQP_0165,Reliance,Jamnagar Refinery,Gas Compressor,295.92,306.54,1637,30.12,11,49.4,2.32,28.68,Healthy
+RIL_EQP_0166,Reliance,Jamnagar Refinery,Pipeline Pump,298.89,309.64,1494,41.3,38,44.89,2.56,17.56,Healthy
+RIL_EQP_0167,Reliance,Jamnagar Refinery,Pipeline Pump,298.52,309.29,1409,38.72,16,48.3,2.22,19.81,Healthy
+RIL_EQP_0168,Reliance,Jamnagar Refinery,Gas Compressor,296.28,305.75,1268,44.63,26,50.0,2.23,29.89,Healthy
+RIL_EQP_0169,Reliance,Jamnagar Refinery,Gas Compressor,299.23,309.28,1534,48.45,8,58.41,1.78,27.33,Healthy
+RIL_EQP_0170,Reliance,Jamnagar Refinery,Pipeline Pump,302.33,313.03,1293,26.32,93,70.28,3.64,32.79,Warning
+RIL_EQP_0171,Reliance,Jamnagar Refinery,Centrifugal Pump,297.56,307.75,1542,32.27,13,48.75,1.98,27.71,Healthy
+RIL_EQP_0172,Reliance,Jamnagar Refinery,Motor,301.19,312.27,1241,47.77,189,53.28,4.12,33.51,Warning
+RIL_EQP_0173,Reliance,Jamnagar Refinery,Motor,297.27,307.88,1788,22.72,83,40.23,2.5,30.28,Healthy
+RIL_EQP_0174,Reliance,Jamnagar Refinery,Gas Compressor,302.82,314.63,1203,67.64,186,56.58,4.45,30.4,Warning
+RIL_EQP_0175,Reliance,Jamnagar Refinery,Pipeline Pump,299.5,310.88,1809,37.93,6,63.54,2.68,26.16,Healthy
+RIL_EQP_0176,Reliance,Jamnagar Refinery,Gas Compressor,300.47,309.81,1191,66.02,98,61.9,3.71,33.32,Warning
+RIL_EQP_0177,Reliance,Jamnagar Refinery,Centrifugal Pump,299.46,308.76,1612,40.4,81,43.76,2.79,22.82,Healthy
+RIL_EQP_0178,Reliance,Jamnagar Refinery,Centrifugal Pump,299.52,309.57,1623,28.52,75,52.06,3.09,18.95,Healthy
+RIL_EQP_0179,Reliance,Jamnagar Refinery,Gas Compressor,303.65,315.0,1303,71.41,222,62.18,6.01,49.48,Critical
+RIL_EQP_0180,Reliance,Jamnagar Refinery,Motor,303.27,314.07,1193,71.9,241,68.48,7.92,39.83,Critical
+RIL_EQP_0181,Reliance,Jamnagar Refinery,Centrifugal Pump,298.76,309.24,1762,34.36,86,44.69,1.16,15.92,Healthy
+RIL_EQP_0182,Reliance,Jamnagar Refinery,Centrifugal Pump,298.37,307.5,1393,50.19,60,52.38,1.37,22.23,Healthy
+RIL_EQP_0183,Reliance,Jamnagar Refinery,Pipeline Pump,297.75,307.1,1489,46.73,26,53.91,1.63,25.84,Healthy
+RIL_EQP_0184,Reliance,Jamnagar Refinery,Motor,303.49,314.12,1160,75.82,243,84.42,6.59,41.11,Critical
+RIL_EQP_0185,Reliance,Jamnagar Refinery,Motor,305.0,315.0,1165,69.71,200,65.83,7.39,40.8,Critical
+RIL_EQP_0186,Reliance,Jamnagar Refinery,Pipeline Pump,298.38,307.19,1179,45.35,70,44.3,3.07,31.89,Healthy
+RIL_EQP_0187,Reliance,Jamnagar Refinery,Pipeline Pump,304.34,315.0,1240,34.35,166,63.51,4.23,36.16,Warning
+RIL_EQP_0188,Reliance,Jamnagar Refinery,Centrifugal Pump,297.13,306.79,1677,35.16,26,46.2,1.24,24.36,Healthy
+RIL_EQP_0189,Reliance,Jamnagar Refinery,Pipeline Pump,299.6,309.01,1496,55.31,21,46.47,1.78,26.34,Healthy
+RIL_EQP_0190,Reliance,Jamnagar Refinery,Gas Compressor,300.0,310.8,1644,10.98,76,46.7,1.36,28.5,Healthy
+RIL_EQP_0191,Reliance,Jamnagar Refinery,Gas Compressor,298.97,308.0,1818,35.9,50,57.03,2.13,26.03,Healthy
+RIL_EQP_0192,Reliance,Jamnagar Refinery,Pipeline Pump,305.0,315.0,1324,70.89,240,71.62,7.6,53.66,Critical
+RIL_EQP_0193,Reliance,Jamnagar Refinery,Motor,302.14,311.15,1487,43.49,161,58.28,4.11,26.91,Warning
+RIL_EQP_0194,Reliance,Jamnagar Refinery,Gas Compressor,304.15,314.4,1480,73.85,183,64.9,3.68,35.19,Warning
+RIL_EQP_0195,Reliance,Jamnagar Refinery,Motor,300.22,311.19,1160,31.15,73,47.65,1.49,10.0,Healthy
+RIL_EQP_0196,Reliance,Jamnagar Refinery,Centrifugal Pump,298.5,308.08,1370,38.33,60,49.72,1.77,29.49,Healthy
+RIL_EQP_0197,Reliance,Jamnagar Refinery,Motor,298.43,307.73,1347,36.3,81,53.57,1.59,26.38,Healthy
+RIL_EQP_0198,Reliance,Jamnagar Refinery,Motor,300.89,311.2,1424,43.89,79,51.85,1.8,19.34,Healthy
+RIL_EQP_0199,Reliance,Jamnagar Refinery,Gas Compressor,298.58,307.36,1595,32.9,3,40.42,1.82,29.13,Healthy
+RIL_EQP_0200,Reliance,Jamnagar Refinery,Pipeline Pump,299.64,309.85,1657,38.79,52,42.47,1.55,21.57,Healthy
+RIL_EQP_0201,Reliance,Jamnagar Refinery,Gas Compressor,299.79,308.93,1559,34.78,6,47.22,1.73,29.62,Healthy
+RIL_EQP_0202,Reliance,Jamnagar Refinery,Pipeline Pump,302.22,312.9,1175,55.87,140,66.5,5.38,28.26,Warning
+RIL_EQP_0203,Reliance,Jamnagar Refinery,Gas Compressor,304.24,315.0,1215,73.4,232,61.12,6.43,31.82,Critical
+RIL_EQP_0204,Reliance,Jamnagar Refinery,Gas Compressor,299.84,311.4,1614,56.13,90,45.9,4.5,43.3,Warning
+RIL_EQP_0205,Reliance,Jamnagar Refinery,Gas Compressor,305.0,315.0,1160,69.65,208,56.59,9.26,45.84,Critical
+RIL_EQP_0206,Reliance,Jamnagar Refinery,Centrifugal Pump,301.54,310.8,1592,46.01,121,60.79,4.55,34.37,Warning
+RIL_EQP_0207,Reliance,Jamnagar Refinery,Motor,301.85,311.59,1487,59.57,149,57.83,3.75,44.54,Warning
+RIL_EQP_0208,Reliance,Jamnagar Refinery,Pipeline Pump,300.46,310.89,1306,63.78,110,63.17,4.22,36.5,Warning
+RIL_EQP_0209,Reliance,Jamnagar Refinery,Gas Compressor,301.02,311.23,1427,39.59,66,34.91,1.98,28.37,Healthy
+RIL_EQP_0210,Reliance,Jamnagar Refinery,Motor,298.86,309.38,1748,49.4,49,50.24,1.84,14.75,Healthy
+RIL_EQP_0211,Reliance,Jamnagar Refinery,Gas Compressor,299.12,309.24,1426,45.72,29,46.71,1.98,23.78,Healthy
+RIL_EQP_0212,Reliance,Jamnagar Refinery,Pipeline Pump,300.85,311.8,1227,49.51,106,65.08,3.4,38.42,Warning
+RIL_EQP_0213,Reliance,Jamnagar Refinery,Gas Compressor,300.35,311.94,1402,58.15,116,66.06,5.4,35.01,Warning
+RIL_EQP_0214,Reliance,Jamnagar Refinery,Pipeline Pump,298.95,308.67,1264,39.72,59,54.89,2.29,19.73,Healthy
+RIL_EQP_0215,Reliance,Jamnagar Refinery,Motor,298.13,306.46,1733,30.44,21,56.9,2.57,23.09,Healthy
+RIL_EQP_0216,Reliance,Jamnagar Refinery,Pipeline Pump,301.41,312.21,1592,61.11,60,48.59,2.29,20.26,Healthy
+RIL_EQP_0217,Reliance,Jamnagar Refinery,Gas Compressor,298.15,308.19,1609,26.64,17,51.3,1.58,26.43,Healthy
+RIL_EQP_0218,Reliance,Jamnagar Refinery,Pipeline Pump,303.92,314.14,1334,74.36,240,73.22,8.47,45.5,Critical
+RIL_EQP_0219,Reliance,Jamnagar Refinery,Pipeline Pump,301.0,311.41,1481,66.12,120,58.19,5.17,32.93,Warning
+RIL_EQP_0220,Reliance,Jamnagar Refinery,Motor,296.93,306.53,1321,54.08,89,50.2,1.95,30.89,Healthy
+RIL_EQP_0221,Reliance,Jamnagar Refinery,Motor,298.34,309.94,1524,57.57,64,51.93,2.65,29.34,Healthy
+RIL_EQP_0222,Reliance,Jamnagar Refinery,Pipeline Pump,297.91,307.82,1372,37.47,67,47.98,2.84,26.37,Healthy
+RIL_EQP_0223,Reliance,Jamnagar Refinery,Gas Compressor,295.91,305.0,1486,49.94,44,47.45,1.27,23.02,Healthy
+RIL_EQP_0224,Reliance,Jamnagar Refinery,Motor,296.83,308.43,1486,39.39,21,47.54,1.87,20.64,Healthy
+RIL_EQP_0225,Reliance,Jamnagar Refinery,Centrifugal Pump,304.44,315.0,1274,63.9,208,79.91,7.48,41.25,Critical
+RIL_EQP_0226,Reliance,Jamnagar Refinery,Pipeline Pump,299.19,309.22,1636,31.1,12,57.96,1.04,26.31,Healthy
+RIL_EQP_0227,Reliance,Jamnagar Refinery,Gas Compressor,299.27,308.7,1760,37.14,47,42.07,1.45,24.5,Healthy
+RIL_EQP_0228,Reliance,Jamnagar Refinery,Gas Compressor,300.66,311.5,1878,51.77,89,46.24,1.57,13.29,Healthy
+RIL_EQP_0229,Reliance,Jamnagar Refinery,Centrifugal Pump,300.62,309.96,1512,33.56,73,49.87,2.64,17.84,Healthy
+RIL_EQP_0230,Reliance,Jamnagar Refinery,Pipeline Pump,300.28,310.87,1503,51.66,78,41.17,2.47,23.73,Healthy
+RIL_EQP_0231,Reliance,Jamnagar Refinery,Gas Compressor,295.64,305.43,1682,37.49,87,54.28,2.61,20.17,Healthy
+RIL_EQP_0232,Reliance,Jamnagar Refinery,Motor,297.31,307.35,1668,31.32,8,51.93,1.75,21.68,Healthy
+RIL_EQP_0233,Reliance,Jamnagar Refinery,Centrifugal Pump,303.61,313.88,1284,70.54,229,60.37,7.86,42.56,Critical
+RIL_EQP_0234,Reliance,Jamnagar Refinery,Centrifugal Pump,295.49,306.21,1395,28.05,89,51.2,2.4,20.85,Healthy
+RIL_EQP_0235,Reliance,Jamnagar Refinery,Pipeline Pump,300.97,312.04,1764,40.51,15,45.78,1.97,25.76,Healthy
+RIL_EQP_0236,Reliance,Jamnagar Refinery,Pipeline Pump,297.58,306.43,1592,38.66,19,44.74,2.41,19.82,Healthy
+RIL_EQP_0237,Reliance,Jamnagar Refinery,Motor,299.44,310.18,1406,39.86,29,44.11,1.9,24.58,Healthy
+RIL_EQP_0238,Reliance,Jamnagar Refinery,Centrifugal Pump,298.88,309.1,1355,41.11,39,50.76,2.34,21.12,Healthy
+RIL_EQP_0239,Reliance,Jamnagar Refinery,Centrifugal Pump,296.92,306.57,1500,27.9,18,46.55,2.11,16.7,Healthy
+RIL_EQP_0240,Reliance,Jamnagar Refinery,Centrifugal Pump,299.05,307.66,1917,39.7,89,48.63,2.12,26.42,Healthy
+RIL_EQP_0241,Reliance,Jamnagar Refinery,Gas Compressor,296.62,307.67,1774,37.47,6,47.41,0.5,19.02,Healthy
+RIL_EQP_0242,Reliance,Jamnagar Refinery,Pipeline Pump,305.0,315.0,1172,79.63,214,80.04,6.61,58.09,Critical
+RIL_EQP_0243,Reliance,Jamnagar Refinery,Gas Compressor,296.73,306.4,1413,35.08,29,51.99,1.98,23.97,Healthy
+RIL_EQP_0244,Reliance,Jamnagar Refinery,Gas Compressor,295.73,305.0,1480,31.26,24,46.84,2.7,23.7,Healthy
+RIL_EQP_0245,Reliance,Jamnagar Refinery,Pipeline Pump,297.55,308.92,1825,42.77,9,40.19,2.15,25.53,Healthy
+RIL_EQP_0246,Reliance,Jamnagar Refinery,Motor,297.82,307.53,1434,28.84,56,54.83,2.44,22.86,Healthy
+RIL_EQP_0247,Reliance,Jamnagar Refinery,Motor,298.97,310.84,1707,44.68,87,48.19,1.78,29.53,Healthy
+RIL_EQP_0248,Reliance,Jamnagar Refinery,Pipeline Pump,303.26,313.57,1225,74.19,228,55.23,6.08,47.18,Critical
+RIL_EQP_0249,Reliance,Jamnagar Refinery,Centrifugal Pump,300.23,310.52,1433,59.3,188,70.66,4.27,32.14,Warning
+RIL_EQP_0250,Reliance,Jamnagar Refinery,Gas Compressor,298.04,308.6,1685,40.12,20,50.74,2.64,24.3,Healthy
+RIL_EQP_0251,Reliance,Jamnagar Refinery,Centrifugal Pump,297.63,307.57,1463,44.34,67,42.93,1.84,16.56,Healthy
+RIL_EQP_0252,Reliance,Jamnagar Refinery,Motor,300.0,310.72,1696,44.72,31,51.5,2.31,26.72,Healthy
+RIL_EQP_0253,Reliance,Jamnagar Refinery,Centrifugal Pump,298.26,308.32,1489,25.47,61,41.82,2.11,27.62,Healthy
+RIL_EQP_0254,Reliance,Jamnagar Refinery,Pipeline Pump,301.82,311.08,1630,48.33,33,53.33,2.33,28.28,Healthy
+RIL_EQP_0255,Reliance,Jamnagar Refinery,Motor,300.5,311.52,1396,40.57,68,40.26,2.76,24.9,Healthy
+RIL_EQP_0256,Reliance,Jamnagar Refinery,Pipeline Pump,298.37,306.88,2024,39.05,74,43.0,2.57,32.14,Healthy
+RIL_EQP_0257,Reliance,Jamnagar Refinery,Motor,298.38,308.57,1350,32.47,24,56.91,1.93,20.65,Healthy
+RIL_EQP_0258,Reliance,Jamnagar Refinery,Pipeline Pump,303.07,311.99,1393,74.7,94,74.25,4.66,40.58,Warning
+RIL_EQP_0259,Reliance,Jamnagar Refinery,Gas Compressor,301.87,313.11,1654,44.89,102,62.61,4.49,34.52,Warning
+RIL_EQP_0260,Reliance,Jamnagar Refinery,Centrifugal Pump,298.78,309.03,1751,41.81,45,47.11,1.58,22.11,Healthy
+RIL_EQP_0261,Reliance,Jamnagar Refinery,Gas Compressor,301.29,312.55,1423,64.15,155,52.89,3.54,39.68,Warning
+RIL_EQP_0262,Reliance,Jamnagar Refinery,Centrifugal Pump,301.8,312.86,1462,44.95,103,69.08,3.87,42.5,Warning
+RIL_EQP_0263,Reliance,Jamnagar Refinery,Gas Compressor,298.88,308.73,1194,43.27,30,38.38,1.85,28.42,Healthy
+RIL_EQP_0264,Reliance,Jamnagar Refinery,Centrifugal Pump,297.42,308.06,1505,34.76,48,54.37,1.42,22.16,Healthy
+RIL_EQP_0265,Reliance,Jamnagar Refinery,Centrifugal Pump,297.02,308.44,1510,45.0,87,52.36,1.92,22.08,Healthy
+RIL_EQP_0266,Reliance,Jamnagar Refinery,Pipeline Pump,299.36,308.57,1333,49.87,67,44.33,2.18,23.19,Healthy
+RIL_EQP_0267,Reliance,Jamnagar Refinery,Pipeline Pump,305.0,315.0,1160,68.65,213,67.97,6.33,42.0,Critical
+RIL_EQP_0268,Reliance,Jamnagar Refinery,Motor,299.35,309.08,1726,25.3,10,54.88,2.65,32.95,Healthy
+RIL_EQP_0269,Reliance,Jamnagar Refinery,Centrifugal Pump,299.02,310.06,1437,34.84,77,47.68,2.68,20.58,Healthy
+RIL_EQP_0270,Reliance,Jamnagar Refinery,Motor,302.24,313.31,1230,60.36,110,68.95,5.16,35.77,Warning
+RIL_EQP_0271,Reliance,Jamnagar Refinery,Gas Compressor,300.58,310.6,1719,53.67,0,52.18,1.5,19.04,Healthy
+RIL_EQP_0272,Reliance,Jamnagar Refinery,Gas Compressor,299.35,309.71,1947,41.48,24,46.36,1.43,28.72,Healthy
+RIL_EQP_0273,Reliance,Jamnagar Refinery,Motor,296.69,306.71,1370,34.59,67,48.03,1.55,22.05,Healthy
+RIL_EQP_0274,Reliance,Jamnagar Refinery,Pipeline Pump,301.28,310.98,1267,47.84,101,62.69,4.36,39.97,Warning
+RIL_EQP_0275,Reliance,Jamnagar Refinery,Motor,299.31,309.67,1683,41.73,75,48.25,1.99,19.91,Healthy
+RIL_EQP_0276,Reliance,Jamnagar Refinery,Gas Compressor,298.46,309.62,1714,32.99,6,54.23,0.72,31.72,Healthy
+RIL_EQP_0277,Reliance,Jamnagar Refinery,Motor,299.09,309.44,1752,35.37,64,37.27,1.84,23.12,Healthy
+RIL_EQP_0278,Reliance,Jamnagar Refinery,Pipeline Pump,302.05,311.68,1460,53.03,138,73.69,4.0,36.15,Warning
+RIL_EQP_0279,Reliance,Jamnagar Refinery,Motor,296.55,306.39,1685,42.82,24,46.53,1.27,26.58,Healthy
+RIL_EQP_0280,Reliance,Jamnagar Refinery,Pipeline Pump,299.51,309.29,1246,42.27,71,47.95,2.7,24.11,Healthy
+RIL_EQP_0281,Reliance,Jamnagar Refinery,Gas Compressor,299.0,308.52,1433,37.22,45,43.4,1.89,31.76,Healthy
+RIL_EQP_0282,Reliance,Jamnagar Refinery,Gas Compressor,298.87,310.11,1401,57.92,77,45.7,3.0,32.0,Healthy
+RIL_EQP_0283,Reliance,Jamnagar Refinery,Pipeline Pump,300.26,310.03,1447,42.2,31,42.96,2.25,20.24,Healthy
+RIL_EQP_0284,Reliance,Jamnagar Refinery,Gas Compressor,300.1,310.41,1485,42.33,1,40.97,1.58,22.28,Healthy
+RIL_EQP_0285,Reliance,Jamnagar Refinery,Motor,298.99,309.42,1545,31.7,86,55.44,1.65,25.68,Healthy
+RIL_EQP_0286,Reliance,Jamnagar Refinery,Gas Compressor,299.18,308.69,1739,49.03,79,52.96,2.08,22.26,Healthy
+RIL_EQP_0287,Reliance,Jamnagar Refinery,Gas Compressor,297.31,308.02,1609,37.5,44,48.93,1.74,25.71,Healthy
+RIL_EQP_0288,Reliance,Jamnagar Refinery,Centrifugal Pump,301.71,312.57,1642,42.6,12,57.2,1.51,23.27,Healthy
+RIL_EQP_0289,Reliance,Jamnagar Refinery,Centrifugal Pump,302.56,313.74,1180,66.48,113,52.25,3.93,34.6,Warning
+RIL_EQP_0290,Reliance,Jamnagar Refinery,Motor,297.47,307.7,1689,42.55,9,51.03,2.38,21.78,Healthy
+RIL_EQP_0291,Reliance,Jamnagar Refinery,Centrifugal Pump,301.89,312.19,1579,49.96,150,60.56,3.62,46.6,Warning
+RIL_EQP_0292,Reliance,Jamnagar Refinery,Centrifugal Pump,301.89,312.81,1350,52.21,151,58.96,4.17,26.4,Warning
+RIL_EQP_0293,Reliance,Jamnagar Refinery,Gas Compressor,298.45,308.7,1536,35.12,68,52.37,2.27,29.58,Healthy
+RIL_EQP_0294,Reliance,Jamnagar Refinery,Motor,298.26,308.76,1193,54.83,37,49.37,3.09,20.52,Healthy
+RIL_EQP_0295,Reliance,Jamnagar Refinery,Gas Compressor,298.94,309.23,1610,39.49,32,44.86,1.26,25.13,Healthy
+RIL_EQP_0296,Reliance,Jamnagar Refinery,Pipeline Pump,296.85,306.54,1627,53.9,51,52.9,2.72,26.61,Healthy
+RIL_EQP_0297,Reliance,Jamnagar Refinery,Centrifugal Pump,301.51,310.45,1475,35.32,4,52.47,1.51,27.05,Healthy
+RIL_EQP_0298,Reliance,Jamnagar Refinery,Motor,299.48,310.11,1826,37.61,58,50.65,1.63,20.14,Healthy
+RIL_EQP_0299,Reliance,Jamnagar Refinery,Centrifugal Pump,297.53,308.04,1645,47.4,18,39.71,2.45,23.77,Healthy
+RIL_EQP_0300,Reliance,Jamnagar Refinery,Centrifugal Pump,301.75,313.08,1474,53.98,173,48.89,3.35,37.77,Warning
+RIL_EQP_0301,Reliance,Jamnagar Refinery,Pipeline Pump,298.36,310.5,1632,43.94,88,42.69,1.39,27.18,Healthy
+RIL_EQP_0302,Reliance,Jamnagar Refinery,Pipeline Pump,303.17,313.79,1954,51.22,91,61.11,3.56,39.66,Warning
+RIL_EQP_0303,Reliance,Jamnagar Refinery,Centrifugal Pump,301.14,311.46,1600,65.81,158,47.48,3.91,43.61,Warning
+RIL_EQP_0304,Reliance,Jamnagar Refinery,Pipeline Pump,298.84,309.74,1328,31.28,0,46.88,2.65,28.48,Healthy
+RIL_EQP_0305,Reliance,Jamnagar Refinery,Motor,298.45,309.44,1540,43.42,40,53.06,2.9,24.17,Healthy
+RIL_EQP_0306,Reliance,Jamnagar Refinery,Centrifugal Pump,300.17,311.35,1470,29.96,71,54.6,1.23,17.63,Healthy
+RIL_EQP_0307,Reliance,Jamnagar Refinery,Motor,298.62,307.77,1589,40.13,46,45.6,3.02,25.72,Healthy
+RIL_EQP_0308,Reliance,Jamnagar Refinery,Centrifugal Pump,300.54,309.87,1428,69.84,123,49.92,4.31,27.82,Warning
+RIL_EQP_0309,Reliance,Jamnagar Refinery,Gas Compressor,298.73,308.34,1315,27.38,52,38.57,2.24,26.39,Healthy
+RIL_EQP_0310,Reliance,Jamnagar Refinery,Motor,303.56,314.97,1250,70.04,191,70.75,6.35,46.15,Critical
+RIL_EQP_0311,Reliance,Jamnagar Refinery,Gas Compressor,299.87,309.66,1646,29.19,9,51.65,1.58,26.76,Healthy
+RIL_EQP_0312,Reliance,Jamnagar Refinery,Motor,297.82,310.15,1638,32.0,32,44.02,3.18,25.97,Healthy
+RIL_EQP_0313,Reliance,Jamnagar Refinery,Pipeline Pump,301.8,312.64,1348,57.77,144,72.19,3.3,37.22,Warning
+RIL_EQP_0314,Reliance,Jamnagar Refinery,Gas Compressor,297.9,308.76,1286,19.07,23,49.12,1.93,18.59,Healthy
+RIL_EQP_0315,Reliance,Jamnagar Refinery,Gas Compressor,300.82,311.19,1553,55.56,20,53.11,2.88,19.28,Healthy
+RIL_EQP_0316,Reliance,Jamnagar Refinery,Motor,299.24,309.57,1774,24.95,61,51.52,2.49,27.74,Healthy
+RIL_EQP_0317,Reliance,Jamnagar Refinery,Centrifugal Pump,299.12,308.5,1497,29.66,48,44.21,1.88,22.04,Healthy
+RIL_EQP_0318,Reliance,Jamnagar Refinery,Gas Compressor,296.94,308.51,1459,40.64,76,39.21,2.68,24.67,Healthy
+RIL_EQP_0319,Reliance,Jamnagar Refinery,Pipeline Pump,301.56,312.76,1160,48.41,142,57.05,4.1,46.53,Warning
+RIL_EQP_0320,Reliance,Jamnagar Refinery,Centrifugal Pump,299.69,311.14,1670,32.61,70,41.58,2.37,30.58,Healthy
+RIL_EQP_0321,Reliance,Jamnagar Refinery,Motor,303.23,315.0,1492,46.19,182,58.41,5.3,32.76,Warning
+RIL_EQP_0322,Reliance,Jamnagar Refinery,Pipeline Pump,301.93,312.7,1290,56.28,189,59.7,2.91,31.79,Warning
+RIL_EQP_0323,Reliance,Jamnagar Refinery,Pipeline Pump,298.01,307.38,1732,46.19,53,50.8,1.37,23.61,Healthy
+RIL_EQP_0324,Reliance,Jamnagar Refinery,Pipeline Pump,298.32,308.84,1728,41.78,84,54.29,2.13,23.07,Healthy
+RIL_EQP_0325,Reliance,Jamnagar Refinery,Gas Compressor,299.59,309.17,1618,35.65,84,37.96,2.22,18.82,Healthy
+RIL_EQP_0326,Reliance,Jamnagar Refinery,Pipeline Pump,296.66,306.08,1471,47.61,59,45.33,1.46,25.46,Healthy
+RIL_EQP_0327,Reliance,Jamnagar Refinery,Centrifugal Pump,302.79,312.48,1385,74.76,167,56.09,4.35,25.69,Warning
+RIL_EQP_0328,Reliance,Jamnagar Refinery,Motor,299.05,308.79,1660,41.4,20,41.41,2.51,19.03,Healthy
+RIL_EQP_0329,Reliance,Jamnagar Refinery,Gas Compressor,298.78,310.03,1369,39.18,71,48.78,2.33,28.74,Healthy
+RIL_EQP_0330,Reliance,Jamnagar Refinery,Centrifugal Pump,299.71,310.78,1871,42.02,69,48.79,1.76,18.16,Healthy
+RIL_EQP_0331,Reliance,Jamnagar Refinery,Gas Compressor,298.63,308.55,1657,26.37,14,47.09,3.0,27.98,Healthy
+RIL_EQP_0332,Reliance,Jamnagar Refinery,Motor,298.97,308.68,1234,41.66,28,35.76,1.84,23.99,Healthy
+RIL_EQP_0333,Reliance,Jamnagar Refinery,Centrifugal Pump,301.11,312.57,1735,30.6,81,57.61,2.31,20.23,Healthy
+RIL_EQP_0334,Reliance,Jamnagar Refinery,Motor,299.65,309.17,1575,40.53,23,42.5,1.86,19.9,Healthy
+RIL_EQP_0335,Reliance,Jamnagar Refinery,Gas Compressor,301.09,311.83,1160,45.93,168,48.54,3.97,34.9,Warning
+RIL_EQP_0336,Reliance,Jamnagar Refinery,Gas Compressor,300.23,310.59,1222,59.27,123,55.86,4.14,30.28,Warning
+RIL_EQP_0337,Reliance,Jamnagar Refinery,Motor,296.96,306.64,1569,35.99,31,44.18,1.09,21.23,Healthy
+RIL_EQP_0338,Reliance,Jamnagar Refinery,Pipeline Pump,300.52,312.33,1540,26.76,67,51.69,1.51,21.8,Healthy
+RIL_EQP_0339,Reliance,Jamnagar Refinery,Motor,297.9,307.62,1313,32.38,81,53.1,1.98,24.5,Healthy
+RIL_EQP_0340,Reliance,Jamnagar Refinery,Pipeline Pump,299.64,309.09,1752,39.23,11,45.19,1.16,32.7,Healthy
+RIL_EQP_0341,Reliance,Jamnagar Refinery,Centrifugal Pump,302.86,314.82,1388,65.82,182,54.17,4.79,30.85,Warning
+RIL_EQP_0342,Reliance,Jamnagar Refinery,Gas Compressor,304.27,314.31,1212,68.44,223,56.1,6.54,42.93,Critical
+RIL_EQP_0343,Reliance,Jamnagar Refinery,Motor,298.84,310.0,1643,33.57,61,47.71,1.83,25.95,Healthy
+RIL_EQP_0344,Reliance,Jamnagar Refinery,Gas Compressor,297.75,307.75,1633,29.95,58,49.59,1.21,28.42,Healthy
+RIL_EQP_0345,Reliance,Jamnagar Refinery,Motor,300.46,309.56,1754,45.49,70,47.09,1.81,19.66,Healthy
+RIL_EQP_0346,Reliance,Jamnagar Refinery,Gas Compressor,301.25,310.74,1621,42.98,123,59.19,4.55,35.79,Warning
+RIL_EQP_0347,Reliance,Jamnagar Refinery,Pipeline Pump,302.95,313.09,1364,52.65,161,68.42,5.88,28.03,Warning
+RIL_EQP_0348,Reliance,Jamnagar Refinery,Gas Compressor,299.18,310.04,1902,43.9,32,54.98,2.83,29.86,Healthy
+RIL_EQP_0349,Reliance,Jamnagar Refinery,Motor,296.96,306.95,1604,37.2,43,47.81,2.78,20.97,Healthy
+RIL_EQP_0350,Reliance,Jamnagar Refinery,Centrifugal Pump,298.88,308.19,1356,24.39,21,50.43,1.97,20.7,Healthy
+RIL_EQP_0351,Reliance,Jamnagar Refinery,Motor,302.43,312.79,1228,47.29,136,56.09,4.58,32.35,Warning
+RIL_EQP_0352,Reliance,Jamnagar Refinery,Pipeline Pump,298.43,309.27,1557,38.55,53,46.37,1.56,20.31,Healthy
+RIL_EQP_0353,Reliance,Jamnagar Refinery,Pipeline Pump,299.92,310.29,1564,40.36,41,49.7,1.63,22.7,Healthy
+RIL_EQP_0354,Reliance,Jamnagar Refinery,Motor,301.51,312.33,1580,48.93,15,54.2,1.31,23.11,Healthy
+RIL_EQP_0355,Reliance,Jamnagar Refinery,Motor,299.23,309.05,1532,34.31,78,53.24,1.28,22.29,Healthy
+RIL_EQP_0356,Reliance,Jamnagar Refinery,Centrifugal Pump,303.48,314.47,1213,68.43,248,80.99,8.35,44.58,Critical
+RIL_EQP_0357,Reliance,Jamnagar Refinery,Motor,297.96,308.46,1335,52.37,46,53.7,1.4,20.84,Healthy
+RIL_EQP_0358,Reliance,Jamnagar Refinery,Motor,298.09,308.53,1485,50.2,26,48.04,3.21,26.41,Healthy
+RIL_EQP_0359,Reliance,Jamnagar Refinery,Gas Compressor,301.0,311.88,1618,43.17,8,42.05,1.1,23.83,Healthy
+RIL_EQP_0360,Reliance,Jamnagar Refinery,Centrifugal Pump,298.97,310.34,1787,38.16,33,53.92,2.76,23.68,Healthy
+RIL_EQP_0361,Reliance,Jamnagar Refinery,Gas Compressor,304.3,313.65,1208,73.6,198,73.16,7.34,44.74,Critical
+RIL_EQP_0362,Reliance,Jamnagar Refinery,Centrifugal Pump,300.5,310.2,1438,48.86,32,52.89,2.14,27.08,Healthy
+RIL_EQP_0363,Reliance,Jamnagar Refinery,Centrifugal Pump,298.4,309.44,1428,30.01,49,48.39,2.05,26.59,Healthy
+RIL_EQP_0364,Reliance,Jamnagar Refinery,Centrifugal Pump,299.45,310.69,1165,50.12,134,40.53,5.02,35.75,Warning
+RIL_EQP_0365,Reliance,Jamnagar Refinery,Motor,298.86,307.22,1372,34.39,36,44.26,1.86,24.98,Healthy
+RIL_EQP_0366,Reliance,Jamnagar Refinery,Gas Compressor,296.72,306.72,1678,30.61,8,47.04,2.23,24.04,Healthy
+RIL_EQP_0367,Reliance,Jamnagar Refinery,Motor,298.61,308.36,1338,39.98,15,48.5,1.5,26.33,Healthy
+RIL_EQP_0368,Reliance,Jamnagar Refinery,Centrifugal Pump,297.71,307.13,1412,24.57,20,58.02,1.78,20.57,Healthy
+RIL_EQP_0369,Reliance,Jamnagar Refinery,Pipeline Pump,298.03,307.48,1808,28.01,8,40.31,2.28,23.57,Healthy
+RIL_EQP_0370,Reliance,Jamnagar Refinery,Pipeline Pump,304.59,315.0,1175,62.97,199,58.66,6.3,38.49,Critical
+RIL_EQP_0371,Reliance,Jamnagar Refinery,Gas Compressor,296.34,305.98,1518,37.68,12,49.99,1.84,21.33,Healthy
+RIL_EQP_0372,Reliance,Jamnagar Refinery,Centrifugal Pump,298.12,309.25,1491,37.87,78,47.31,2.12,22.32,Healthy
+RIL_EQP_0373,Reliance,Jamnagar Refinery,Pipeline Pump,303.53,314.87,1529,44.26,143,48.56,4.37,37.85,Warning
+RIL_EQP_0374,Reliance,Jamnagar Refinery,Centrifugal Pump,297.66,308.78,1673,46.46,9,45.79,1.74,27.8,Healthy
+RIL_EQP_0375,Reliance,Jamnagar Refinery,Pipeline Pump,297.6,307.11,1385,33.91,44,52.38,1.25,26.52,Healthy
+RIL_EQP_0376,Reliance,Jamnagar Refinery,Gas Compressor,298.25,308.13,1510,35.7,21,45.78,1.71,29.28,Healthy
+RIL_EQP_0377,Reliance,Jamnagar Refinery,Pipeline Pump,298.35,307.83,1476,32.87,67,51.83,1.62,15.02,Healthy
+RIL_EQP_0378,Reliance,Jamnagar Refinery,Gas Compressor,298.16,307.7,1714,16.13,67,55.88,2.53,21.49,Healthy
+RIL_EQP_0379,Reliance,Jamnagar Refinery,Motor,299.11,309.53,1435,25.07,82,58.57,2.48,24.63,Healthy
+RIL_EQP_0380,Reliance,Jamnagar Refinery,Gas Compressor,304.63,315.0,1160,68.25,221,68.36,6.84,49.62,Critical
+RIL_EQP_0381,Reliance,Jamnagar Refinery,Motor,296.88,306.34,1577,44.66,89,56.16,1.86,27.32,Healthy
+RIL_EQP_0382,Reliance,Jamnagar Refinery,Motor,299.15,309.13,1478,29.48,21,42.34,2.17,23.78,Healthy
+RIL_EQP_0383,Reliance,Jamnagar Refinery,Gas Compressor,302.66,313.0,1194,52.87,94,64.57,3.38,35.05,Warning
+RIL_EQP_0384,Reliance,Jamnagar Refinery,Motor,297.59,307.35,1267,38.88,69,41.18,2.54,23.63,Healthy
+RIL_EQP_0385,Reliance,Jamnagar Refinery,Gas Compressor,303.16,312.84,1222,40.37,181,68.48,5.7,25.63,Warning
+RIL_EQP_0386,Reliance,Jamnagar Refinery,Centrifugal Pump,298.58,308.17,1544,37.06,54,50.04,1.52,24.77,Healthy
+RIL_EQP_0387,Reliance,Jamnagar Refinery,Centrifugal Pump,298.01,306.62,1477,33.42,19,52.72,1.97,24.49,Healthy
+RIL_EQP_0388,Reliance,Jamnagar Refinery,Gas Compressor,295.95,305.0,1492,40.23,56,46.83,1.57,23.04,Healthy
+RIL_EQP_0389,Reliance,Jamnagar Refinery,Gas Compressor,299.43,310.01,1450,37.6,14,49.38,2.21,30.61,Healthy
+RIL_EQP_0390,Reliance,Jamnagar Refinery,Motor,299.9,308.97,1435,20.91,11,48.76,2.32,13.78,Healthy
+RIL_EQP_0391,Reliance,Jamnagar Refinery,Gas Compressor,302.6,313.54,1160,61.18,131,58.07,4.67,33.37,Warning
+RIL_EQP_0392,Reliance,Jamnagar Refinery,Gas Compressor,299.83,309.67,1601,48.0,87,47.33,1.44,26.7,Healthy
+RIL_EQP_0393,Reliance,Jamnagar Refinery,Gas Compressor,300.05,310.62,1160,32.91,50,45.08,2.02,30.75,Healthy
+RIL_EQP_0394,Reliance,Jamnagar Refinery,Pipeline Pump,304.24,314.44,1219,61.76,109,65.39,4.72,30.15,Warning
+RIL_EQP_0395,Reliance,Jamnagar Refinery,Gas Compressor,300.97,310.83,1333,48.44,184,66.42,3.74,32.9,Warning
+RIL_EQP_0396,Reliance,Jamnagar Refinery,Motor,299.75,309.21,1755,46.55,74,45.77,2.01,22.11,Healthy
+RIL_EQP_0397,Reliance,Jamnagar Refinery,Gas Compressor,304.06,314.61,1184,62.09,223,71.39,7.65,45.83,Critical
+RIL_EQP_0398,Reliance,Jamnagar Refinery,Motor,298.05,307.68,1348,34.75,61,57.83,2.14,21.66,Healthy
+RIL_EQP_0399,Reliance,Jamnagar Refinery,Centrifugal Pump,296.58,305.92,1686,34.58,86,43.21,1.58,26.6,Healthy
+RIL_EQP_0400,Reliance,Jamnagar Refinery,Centrifugal Pump,297.75,307.5,1947,47.76,79,55.34,1.12,23.4,Healthy
+RIL_EQP_0401,Reliance,Jamnagar Refinery,Pipeline Pump,299.15,310.0,1608,31.02,84,44.69,2.31,26.88,Healthy
+RIL_EQP_0402,Reliance,Jamnagar Refinery,Pipeline Pump,298.66,308.7,1598,43.73,70,51.15,2.01,23.8,Healthy
+RIL_EQP_0403,Reliance,Jamnagar Refinery,Gas Compressor,297.56,306.93,1647,32.3,45,52.07,1.97,27.28,Healthy
+RIL_EQP_0404,Reliance,Jamnagar Refinery,Pipeline Pump,299.51,309.13,1623,43.9,75,40.24,2.85,33.06,Healthy
+RIL_EQP_0405,Reliance,Jamnagar Refinery,Centrifugal Pump,299.47,309.94,1491,37.12,54,52.82,1.51,19.76,Healthy
+RIL_EQP_0406,Reliance,Jamnagar Refinery,Gas Compressor,299.29,308.59,1509,37.15,14,42.94,0.78,19.89,Healthy
+RIL_EQP_0407,Reliance,Jamnagar Refinery,Gas Compressor,302.49,313.38,1453,49.99,132,51.28,4.5,32.94,Warning
+RIL_EQP_0408,Reliance,Jamnagar Refinery,Gas Compressor,298.96,309.98,1466,46.54,88,58.17,2.03,26.0,Healthy
+RIL_EQP_0409,Reliance,Jamnagar Refinery,Gas Compressor,298.44,309.16,1753,34.04,33,50.93,2.14,25.56,Healthy
+RIL_EQP_0410,Reliance,Jamnagar Refinery,Motor,302.52,312.91,1491,63.89,106,53.57,4.2,25.16,Warning
+RIL_EQP_0411,Reliance,Jamnagar Refinery,Pipeline Pump,299.97,309.76,1574,36.24,50,46.08,2.12,20.86,Healthy
+RIL_EQP_0412,Reliance,Jamnagar Refinery,Centrifugal Pump,297.41,307.89,1593,34.55,36,48.19,1.89,28.58,Healthy
+RIL_EQP_0413,Reliance,Jamnagar Refinery,Motor,302.64,312.57,1488,63.3,155,66.68,5.38,35.46,Warning
+RIL_EQP_0414,Reliance,Jamnagar Refinery,Centrifugal Pump,300.45,309.55,1441,26.03,28,53.31,1.25,16.88,Healthy
+RIL_EQP_0415,Reliance,Jamnagar Refinery,Centrifugal Pump,296.41,306.63,1354,24.48,9,47.79,2.01,16.52,Healthy
+RIL_EQP_0416,Reliance,Jamnagar Refinery,Pipeline Pump,301.93,312.14,1293,64.43,93,75.17,3.95,27.39,Warning
+RIL_EQP_0417,Reliance,Jamnagar Refinery,Motor,302.19,312.65,1453,72.7,168,44.3,3.79,41.71,Warning
+RIL_EQP_0418,Reliance,Jamnagar Refinery,Gas Compressor,304.75,315.0,1303,79.57,234,74.66,5.25,40.8,Critical
+RIL_EQP_0419,Reliance,Jamnagar Refinery,Gas Compressor,296.8,307.2,1160,27.19,10,52.43,2.02,22.49,Healthy
+RIL_EQP_0420,Reliance,Jamnagar Refinery,Motor,296.1,306.66,1499,25.83,82,48.15,2.29,23.2,Healthy
+RIL_EQP_0421,Reliance,Jamnagar Refinery,Pipeline Pump,298.55,307.98,1559,43.88,23,53.17,2.4,21.3,Healthy
+RIL_EQP_0422,Reliance,Jamnagar Refinery,Pipeline Pump,299.06,308.49,1466,43.44,14,54.88,1.09,30.56,Healthy
+RIL_EQP_0423,Reliance,Jamnagar Refinery,Motor,298.74,308.55,1620,32.88,65,47.11,1.26,17.03,Healthy
+RIL_EQP_0424,Reliance,Jamnagar Refinery,Motor,298.58,308.74,1544,31.38,31,46.46,2.05,23.21,Healthy
+RIL_EQP_0425,Reliance,Jamnagar Refinery,Pipeline Pump,299.08,309.23,1620,43.64,50,47.15,1.92,29.93,Healthy
+RIL_EQP_0426,Reliance,Jamnagar Refinery,Centrifugal Pump,300.13,311.07,1243,46.38,135,65.08,4.08,27.68,Warning
+RIL_EQP_0427,Reliance,Jamnagar Refinery,Gas Compressor,296.57,306.5,1209,40.17,89,44.79,2.41,23.93,Healthy
+RIL_EQP_0428,Reliance,Jamnagar Refinery,Centrifugal Pump,297.98,306.7,1592,35.98,5,38.9,1.47,21.05,Healthy
+RIL_EQP_0429,Reliance,Jamnagar Refinery,Pipeline Pump,302.71,312.93,1430,38.68,184,53.48,4.52,34.83,Warning
+RIL_EQP_0430,Reliance,Jamnagar Refinery,Pipeline Pump,298.45,308.72,1548,44.89,13,49.59,2.26,30.85,Healthy
+RIL_EQP_0431,Reliance,Jamnagar Refinery,Centrifugal Pump,300.59,310.05,1263,36.88,29,46.87,2.73,19.48,Healthy
+RIL_EQP_0432,Reliance,Jamnagar Refinery,Centrifugal Pump,298.99,309.07,1519,40.87,36,53.4,2.77,24.13,Healthy
+RIL_EQP_0433,Reliance,Jamnagar Refinery,Motor,303.53,313.17,1654,65.75,98,69.92,4.75,23.44,Warning
+RIL_EQP_0434,Reliance,Jamnagar Refinery,Gas Compressor,298.87,308.33,1493,42.9,6,47.15,1.39,27.54,Healthy
+RIL_EQP_0435,Reliance,Jamnagar Refinery,Motor,298.2,308.77,1567,48.65,59,48.76,2.66,16.51,Healthy
+RIL_EQP_0436,Reliance,Jamnagar Refinery,Gas Compressor,298.02,307.34,1758,45.11,39,37.97,2.36,26.38,Healthy
+RIL_EQP_0437,Reliance,Jamnagar Refinery,Centrifugal Pump,301.16,310.39,1292,53.58,143,64.38,4.42,28.7,Warning
+RIL_EQP_0438,Reliance,Jamnagar Refinery,Pipeline Pump,304.02,314.26,1160,73.12,237,75.57,7.56,40.63,Critical
+RIL_EQP_0439,Reliance,Jamnagar Refinery,Gas Compressor,296.85,306.06,1556,40.1,47,39.86,1.47,22.54,Healthy
+RIL_EQP_0440,Reliance,Jamnagar Refinery,Gas Compressor,297.52,307.64,1594,36.0,11,49.34,1.33,21.38,Healthy
+RIL_EQP_0441,Reliance,Jamnagar Refinery,Pipeline Pump,300.31,310.98,1748,23.39,7,43.26,1.84,33.66,Healthy
+RIL_EQP_0442,Reliance,Jamnagar Refinery,Centrifugal Pump,299.39,309.7,1614,37.81,15,42.0,0.65,29.13,Healthy
+RIL_EQP_0443,Reliance,Jamnagar Refinery,Centrifugal Pump,296.26,306.61,1625,44.14,53,53.58,1.54,20.5,Healthy
+RIL_EQP_0444,Reliance,Jamnagar Refinery,Motor,299.49,307.8,1573,45.46,32,52.45,2.35,28.25,Healthy
+RIL_EQP_0445,Reliance,Jamnagar Refinery,Pipeline Pump,300.44,310.7,1790,28.6,7,39.23,2.89,20.29,Healthy
+RIL_EQP_0446,Reliance,Jamnagar Refinery,Gas Compressor,299.13,309.75,1744,39.79,69,42.73,2.35,26.89,Healthy
+RIL_EQP_0447,Reliance,Jamnagar Refinery,Motor,300.2,308.21,1736,32.93,43,51.53,2.26,23.85,Healthy
+RIL_EQP_0448,Reliance,Jamnagar Refinery,Pipeline Pump,298.4,308.97,1943,27.27,47,32.06,1.79,22.06,Healthy
+RIL_EQP_0449,Reliance,Jamnagar Refinery,Centrifugal Pump,301.07,312.27,1160,58.61,168,63.11,4.45,36.44,Warning
+RIL_EQP_0450,Reliance,Jamnagar Refinery,Gas Compressor,298.56,308.29,1637,42.8,41,52.45,1.14,23.27,Healthy
+RIL_EQP_0451,Reliance,Jamnagar Refinery,Motor,299.17,309.75,1500,32.17,76,50.98,1.93,29.71,Healthy
+RIL_EQP_0452,Reliance,Jamnagar Refinery,Pipeline Pump,304.9,315.0,1362,71.2,242,68.17,6.32,40.78,Critical
+RIL_EQP_0453,Reliance,Jamnagar Refinery,Pipeline Pump,299.06,307.92,1469,39.7,0,51.22,1.99,24.98,Healthy
+RIL_EQP_0454,Reliance,Jamnagar Refinery,Gas Compressor,301.09,311.54,1436,56.85,184,51.21,4.01,41.56,Warning
+RIL_EQP_0455,Reliance,Jamnagar Refinery,Motor,298.3,307.48,1421,38.05,42,49.38,2.28,25.55,Healthy
+RIL_EQP_0456,Reliance,Jamnagar Refinery,Centrifugal Pump,297.89,309.52,1449,27.67,32,39.81,1.82,27.76,Healthy
+RIL_EQP_0457,Reliance,Jamnagar Refinery,Motor,300.27,310.27,1749,31.94,38,44.29,2.05,25.93,Healthy
+RIL_EQP_0458,Reliance,Jamnagar Refinery,Motor,298.85,309.32,1294,35.27,47,45.41,1.76,25.63,Healthy
+RIL_EQP_0459,Reliance,Jamnagar Refinery,Centrifugal Pump,299.99,310.31,1169,58.97,144,64.45,2.46,30.13,Warning
+RIL_EQP_0460,Reliance,Jamnagar Refinery,Motor,296.81,307.44,1738,36.7,13,44.13,0.84,27.26,Healthy
+RIL_EQP_0461,Reliance,Jamnagar Refinery,Gas Compressor,300.65,310.5,1353,44.7,10,47.37,2.24,25.21,Healthy
+RIL_EQP_0462,Reliance,Jamnagar Refinery,Gas Compressor,299.73,310.59,1455,30.62,45,35.5,1.83,19.63,Healthy
+RIL_EQP_0463,Reliance,Jamnagar Refinery,Gas Compressor,298.1,307.92,1696,41.18,15,47.42,2.84,26.95,Healthy
+RIL_EQP_0464,Reliance,Jamnagar Refinery,Centrifugal Pump,298.05,308.69,1586,29.03,4,52.47,2.63,28.73,Healthy
+RIL_EQP_0465,Reliance,Jamnagar Refinery,Motor,300.98,312.37,1611,36.33,53,38.85,2.01,26.08,Healthy
+RIL_EQP_0466,Reliance,Jamnagar Refinery,Centrifugal Pump,296.23,306.0,1666,29.79,11,48.83,2.22,28.47,Healthy
+RIL_EQP_0467,Reliance,Jamnagar Refinery,Pipeline Pump,298.05,308.19,1588,43.19,74,50.69,2.71,14.67,Healthy
+RIL_EQP_0468,Reliance,Jamnagar Refinery,Centrifugal Pump,304.54,315.0,1160,69.7,202,66.32,8.68,47.25,Critical
+RIL_EQP_0469,Reliance,Jamnagar Refinery,Motor,296.04,306.51,1675,36.27,84,51.02,1.83,28.27,Healthy
+RIL_EQP_0470,Reliance,Jamnagar Refinery,Pipeline Pump,300.36,309.74,1695,62.46,162,47.9,2.94,35.04,Warning
+RIL_EQP_0471,Reliance,Jamnagar Refinery,Centrifugal Pump,298.12,308.08,1533,47.01,55,57.17,1.76,19.48,Healthy
+RIL_EQP_0472,Reliance,Jamnagar Refinery,Centrifugal Pump,300.46,310.14,1703,31.3,70,48.11,1.42,24.04,Healthy
+RIL_EQP_0473,Reliance,Jamnagar Refinery,Centrifugal Pump,299.23,310.65,1479,22.0,82,46.99,2.15,24.81,Healthy
+RIL_EQP_0474,Reliance,Jamnagar Refinery,Centrifugal Pump,300.29,310.39,1531,31.78,57,39.27,2.16,24.98,Healthy
+RIL_EQP_0475,Reliance,Jamnagar Refinery,Centrifugal Pump,301.96,312.34,1243,48.65,186,61.24,4.02,31.05,Warning
+RIL_EQP_0476,Reliance,Jamnagar Refinery,Centrifugal Pump,298.34,309.08,1587,36.1,20,49.54,2.68,25.96,Healthy
+RIL_EQP_0477,Reliance,Jamnagar Refinery,Motor,299.27,309.14,1583,34.09,72,40.25,2.17,25.39,Healthy
+RIL_EQP_0478,Reliance,Jamnagar Refinery,Pipeline Pump,303.04,312.96,1160,49.42,142,45.67,4.47,30.24,Warning
+RIL_EQP_0479,Reliance,Jamnagar Refinery,Gas Compressor,299.66,308.92,1404,42.28,28,52.9,0.99,25.13,Healthy
+RIL_EQP_0480,Reliance,Jamnagar Refinery,Gas Compressor,297.84,308.72,2091,36.09,64,41.76,1.74,24.26,Healthy
+RIL_EQP_0481,Reliance,Jamnagar Refinery,Centrifugal Pump,297.39,307.05,1621,36.64,20,43.59,1.66,22.34,Healthy
+RIL_EQP_0482,Reliance,Jamnagar Refinery,Gas Compressor,297.65,308.17,1508,23.97,65,53.12,2.21,18.47,Healthy
+RIL_EQP_0483,Reliance,Jamnagar Refinery,Motor,297.55,308.09,1483,37.42,71,47.05,1.26,29.62,Healthy
+RIL_EQP_0484,Reliance,Jamnagar Refinery,Gas Compressor,301.25,311.91,1515,55.45,101,70.45,6.53,33.37,Warning
+RIL_EQP_0485,Reliance,Jamnagar Refinery,Pipeline Pump,301.01,309.74,1562,52.17,132,65.0,5.06,28.6,Warning
+RIL_EQP_0486,Reliance,Jamnagar Refinery,Gas Compressor,305.0,315.0,1160,64.77,247,70.87,8.51,49.11,Critical
+RIL_EQP_0487,Reliance,Jamnagar Refinery,Centrifugal Pump,300.41,311.52,1610,60.21,45,46.76,2.55,22.43,Healthy
+RIL_EQP_0488,Reliance,Jamnagar Refinery,Motor,298.2,308.57,1980,45.61,86,50.38,1.61,24.75,Healthy
+RIL_EQP_0489,Reliance,Jamnagar Refinery,Motor,302.89,314.08,1319,68.31,126,70.18,4.32,36.83,Warning
+RIL_EQP_0490,Reliance,Jamnagar Refinery,Motor,298.17,307.31,1463,37.16,83,39.7,2.29,28.09,Healthy
+RIL_EQP_0491,Reliance,Jamnagar Refinery,Gas Compressor,295.26,305.06,1299,33.12,22,55.26,0.78,20.73,Healthy
+RIL_EQP_0492,Reliance,Jamnagar Refinery,Gas Compressor,297.66,307.03,1915,41.03,10,52.67,2.25,24.65,Healthy
+RIL_EQP_0493,Reliance,Jamnagar Refinery,Gas Compressor,300.79,309.44,1543,37.65,16,45.85,2.49,25.03,Healthy
+RIL_EQP_0494,Reliance,Jamnagar Refinery,Motor,299.82,310.91,1334,31.55,10,44.38,2.66,20.13,Healthy
+RIL_EQP_0495,Reliance,Jamnagar Refinery,Motor,297.15,309.36,1524,42.24,73,42.3,2.48,16.91,Healthy
+RIL_EQP_0496,Reliance,Jamnagar Refinery,Motor,297.62,307.8,1407,50.19,17,50.52,1.66,27.99,Healthy
+RIL_EQP_0497,Reliance,Jamnagar Refinery,Pipeline Pump,297.79,308.51,1160,43.88,25,44.43,1.64,31.83,Healthy
+RIL_EQP_0498,Reliance,Jamnagar Refinery,Centrifugal Pump,299.65,309.87,1618,36.0,14,46.49,2.76,27.72,Healthy
+RIL_EQP_0499,Reliance,Jamnagar Refinery,Centrifugal Pump,297.24,306.78,1726,47.43,3,50.77,1.19,27.02,Healthy
+RIL_EQP_0500,Reliance,Jamnagar Refinery,Gas Compressor,302.17,314.26,1160,60.48,147,49.84,5.05,37.06,Warning

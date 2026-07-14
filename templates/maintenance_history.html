@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="topbar">
+    <div>
+        <h1>Maintenance History</h1>
+        <p>Latest high-risk machine maintenance records</p>
+    </div>
+    <div class="profile">📈 History</div>
+</div>
+
+<div class="panel">
+    <h2>Maintenance Priority List</h2>
+
+    {% if rows %}
+    <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;">
+            <thead>
+                <tr style="background:#0ea5e9;color:white;">
+                    <th style="padding:12px;">Machine</th>
+                    <th style="padding:12px;">Risk</th>
+                    <th style="padding:12px;">Probability</th>
+                    <th style="padding:12px;">Recommended Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in rows %}
+                <tr>
+                    <td style="padding:10px;border:1px solid #334155;">{{ r['Product ID'] }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ r['Risk Status'] }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ r['Failure Probability (%)'] }}%</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ r['Recommendation'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+        <p>No history found. Upload CSV first.</p>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="topbar">
+    <div>
+        <h1>Reports Center</h1>
+        <p>Download, manage and review generated prediction reports</p>
+    </div>
+    <div class="profile">📄 Report Manager</div>
+</div>
+
+<div class="cards">
+    <div class="card blue">
+        <h3>Total Reports</h3>
+        <h2>{{ reports|length }}</h2>
+        <p>Generated Files</p>
+    </div>
+
+    <div class="card green">
+        <h3>Report Type</h3>
+        <h2>CSV</h2>
+        <p>Prediction Export</p>
+    </div>
+
+    <div class="card yellow">
+        <h3>Status</h3>
+        <h2>Ready</h2>
+        <p>Available for Download</p>
+    </div>
+
+    <div class="card red">
+        <h3>Storage</h3>
+        <h2>Local</h2>
+        <p>Reports Folder</p>
+    </div>
+</div>
+
+<div class="panel" style="margin-top:30px;">
+    <h2>PredictMaint AI Reports</h2>
+    <p>All generated prediction reports are listed below.</p>
+</div>
+
+{% if reports %}
+
+<div class="panel" style="margin-top:30px;">
+    <h2>Available Reports</h2>
+
+    <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;">
+            <thead>
+                <tr style="background:#0ea5e9;color:white;">
+                    <th style="padding:12px;">Report File</th>
+                    <th style="padding:12px;">Created At</th>
+                    <th style="padding:12px;">Size</th>
+                    <th style="padding:12px;">Type</th>
+                    <th style="padding:12px;">Download</th>
+                    <th style="padding:12px;">Delete</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for report in reports %}
+                <tr>
+                    <td style="padding:12px;border:1px solid #334155;">
+                        📄 {{ report.name }}
+                    </td>
+
+                    <td style="padding:12px;border:1px solid #334155;">
+                        {{ report.created }}
+                    </td>
+
+                    <td style="padding:12px;border:1px solid #334155;">
+                        {{ report.size }} KB
+                    </td>
+
+                    <td style="padding:12px;border:1px solid #334155;">
+                        CSV Prediction Report
+                    </td>
+
+                    <td style="padding:12px;border:1px solid #334155;">
+                        <a href="{{ url_for('download', filename=report.name) }}">
+                            <button>Download</button>
+                        </a>
+                    </td>
+
+                    <td style="padding:12px;border:1px solid #334155;">
+                        <a href="{{ url_for('delete_report', filename=report.name) }}">
+                            <button style="background:#ef4444;">Delete</button>
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% else %}
+
+<div class="panel" style="margin-top:30px;">
+    <h2>No Reports Found</h2>
+    <p>Please upload and analyze a CSV file first.</p>
+
+    <a href="/upload">
+        <button>Upload CSV</button>
+    </a>
+</div>
+
+{% endif %}
+
+{% endblock %}

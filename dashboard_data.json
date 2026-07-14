@@ -1,0 +1,13 @@
+{
+    "filename": "IOCL_refinery_pump_test.csv",
+    "company": "ONGC",
+    "analysis_mode": "ML Prediction Mode",
+    "note": "Compatible sensor columns detected. Trained ML model used.",
+    "total": 500,
+    "healthy": 433,
+    "warning": 14,
+    "critical": 53,
+    "overall_risk": "HIGH",
+    "updated_at": "13 Jul 2026, 02:39 PM",
+    "latest_report": "prediction_result_20260713_143915.csv"
+}

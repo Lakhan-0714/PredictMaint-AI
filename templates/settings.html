@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="topbar">
+    <div>
+        <h1>Settings</h1>
+        <p>Manage profile and password</p>
+    </div>
+    <div class="profile">⚙️ {{ session.username }} | {{ session.role }}</div>
+</div>
+
+<div class="form-panel">
+    <h2>Admin Profile</h2>
+
+    <form method="POST">
+        <label>Name</label>
+        <input type="text" name="name" value="{{ user.name }}" required>
+
+        <label>Role</label>
+        <input type="text" name="role" value="{{ user.role }}" required>
+
+        <label>Old Password</label>
+        <input type="password" name="old_password">
+
+        <label>New Password</label>
+        <input type="password" name="new_password">
+
+        <label>Confirm New Password</label>
+        <input type="password" name="confirm_password">
+
+        <button type="submit">Update Settings</button>
+    </form>
+
+    {% if message %}
+    <div class="result"><p>{{ message }}</p></div>
+    {% endif %}
+
+    {% if error %}
+    <div class="result" style="background:#4b1113;border:1px solid red;">
+        <p>{{ error }}</p>
+    </div>
+    {% endif %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,501 @@
+Product ID,Company,Plant,Equipment Type,Oil Temperature,Pump Temperature,Motor Speed,Motor Load,Operating Hours,Pressure bar,Vibration mm/s,Motor Current A,Expected Status
+IOCL_COMP_0001,IOCL,Panipat Refinery,Pipeline Pump,298.67,308.61,1393,38.56,57,44.89,1.53,17.51,Healthy
+IOCL_COMP_0002,IOCL,Panipat Refinery,Centrifugal Pump,302.57,312.51,1778,62.09,117,68.43,4.84,43.26,Warning
+IOCL_COMP_0003,IOCL,Panipat Refinery,Centrifugal Pump,295.43,305.07,1650,39.21,28,49.38,2.66,25.53,Healthy
+IOCL_COMP_0004,IOCL,Panipat Refinery,Gas Compressor,301.06,310.68,1624,55.81,108,53.01,3.7,30.75,Warning
+IOCL_COMP_0005,IOCL,Panipat Refinery,Centrifugal Pump,300.72,310.02,1316,50.26,136,66.86,4.43,35.33,Warning
+IOCL_COMP_0006,IOCL,Panipat Refinery,Pipeline Pump,301.88,312.67,1471,54.25,158,66.63,4.21,37.96,Warning
+IOCL_COMP_0007,IOCL,Panipat Refinery,Pipeline Pump,300.19,310.9,1473,59.6,145,61.38,3.92,29.97,Warning
+IOCL_COMP_0008,IOCL,Panipat Refinery,Motor,299.01,308.56,1749,30.94,37,45.08,2.82,27.47,Healthy
+IOCL_COMP_0009,IOCL,Panipat Refinery,Motor,298.84,308.97,1160,30.75,74,47.75,1.82,24.99,Healthy
+IOCL_COMP_0010,IOCL,Panipat Refinery,Gas Compressor,298.11,307.27,1608,35.39,38,47.22,1.85,32.97,Healthy
+IOCL_COMP_0011,IOCL,Panipat Refinery,Motor,298.03,308.03,1409,45.2,65,52.07,1.98,22.92,Healthy
+IOCL_COMP_0012,IOCL,Panipat Refinery,Gas Compressor,298.37,308.31,1516,40.02,25,51.77,1.38,19.8,Healthy
+IOCL_COMP_0013,IOCL,Panipat Refinery,Gas Compressor,299.54,309.74,1640,26.56,21,56.92,1.7,24.67,Healthy
+IOCL_COMP_0014,IOCL,Panipat Refinery,Gas Compressor,297.32,306.88,1582,60.86,49,49.51,2.8,28.82,Healthy
+IOCL_COMP_0015,IOCL,Panipat Refinery,Gas Compressor,303.51,314.94,1160,78.0,210,73.6,4.35,42.96,Critical
+IOCL_COMP_0016,IOCL,Panipat Refinery,Motor,298.22,308.79,1396,27.55,39,47.64,2.02,22.61,Healthy
+IOCL_COMP_0017,IOCL,Panipat Refinery,Centrifugal Pump,297.48,307.73,1562,25.55,44,41.4,2.01,31.92,Healthy
+IOCL_COMP_0018,IOCL,Panipat Refinery,Gas Compressor,296.43,305.0,1681,37.23,61,53.71,1.56,25.4,Healthy
+IOCL_COMP_0019,IOCL,Panipat Refinery,Centrifugal Pump,304.52,315.0,1160,70.13,235,76.34,6.99,50.84,Critical
+IOCL_COMP_0020,IOCL,Panipat Refinery,Gas Compressor,296.91,308.49,1441,33.45,30,47.67,2.03,22.45,Healthy
+IOCL_COMP_0021,IOCL,Panipat Refinery,Gas Compressor,298.45,308.59,1160,53.05,22,47.26,2.29,18.49,Healthy
+IOCL_COMP_0022,IOCL,Panipat Refinery,Motor,297.69,308.87,1444,44.06,4,44.75,1.77,23.02,Healthy
+IOCL_COMP_0023,IOCL,Panipat Refinery,Motor,296.23,305.18,1199,29.3,62,43.94,1.19,21.06,Healthy
+IOCL_COMP_0024,IOCL,Panipat Refinery,Gas Compressor,297.28,308.24,1622,39.5,21,42.99,1.23,19.44,Healthy
+IOCL_COMP_0025,IOCL,Panipat Refinery,Motor,299.54,310.26,1663,32.1,0,48.12,1.84,23.2,Healthy
+IOCL_COMP_0026,IOCL,Panipat Refinery,Pipeline Pump,296.39,306.2,1768,26.27,78,44.78,1.74,23.11,Healthy
+IOCL_COMP_0027,IOCL,Panipat Refinery,Gas Compressor,302.6,313.63,1436,48.04,112,58.69,3.48,32.34,Warning
+IOCL_COMP_0028,IOCL,Panipat Refinery,Pipeline Pump,298.61,307.66,1582,27.19,9,42.0,1.48,22.22,Healthy
+IOCL_COMP_0029,IOCL,Panipat Refinery,Motor,299.19,309.61,1352,33.67,42,49.36,1.69,22.89,Healthy
+IOCL_COMP_0030,IOCL,Panipat Refinery,Pipeline Pump,298.08,308.26,1836,36.63,39,53.9,2.28,18.13,Healthy
+IOCL_COMP_0031,IOCL,Panipat Refinery,Gas Compressor,301.17,310.98,1334,59.92,162,68.04,4.45,31.77,Warning
+IOCL_COMP_0032,IOCL,Panipat Refinery,Motor,298.58,308.61,1582,54.85,75,54.2,2.39,20.15,Healthy
+IOCL_COMP_0033,IOCL,Panipat Refinery,Pipeline Pump,298.39,307.77,1640,40.86,2,42.56,2.6,24.41,Healthy
+IOCL_COMP_0034,IOCL,Panipat Refinery,Centrifugal Pump,298.44,308.66,1725,35.3,17,52.14,2.09,18.74,Healthy
+IOCL_COMP_0035,IOCL,Panipat Refinery,Pipeline Pump,299.85,310.8,1608,49.97,89,53.28,2.34,20.35,Healthy
+IOCL_COMP_0036,IOCL,Panipat Refinery,Motor,299.14,308.83,1429,40.05,10,39.64,2.35,20.19,Healthy
+IOCL_COMP_0037,IOCL,Panipat Refinery,Centrifugal Pump,297.87,307.66,1413,36.71,14,57.45,2.69,25.42,Healthy
+IOCL_COMP_0038,IOCL,Panipat Refinery,Gas Compressor,299.51,310.42,1400,37.38,45,38.89,2.56,32.26,Healthy
+IOCL_COMP_0039,IOCL,Panipat Refinery,Centrifugal Pump,295.95,306.44,1387,32.69,13,51.13,2.13,22.05,Healthy
+IOCL_COMP_0040,IOCL,Panipat Refinery,Gas Compressor,302.13,312.3,1161,52.34,131,60.72,4.06,26.93,Warning
+IOCL_COMP_0041,IOCL,Panipat Refinery,Pipeline Pump,295.21,305.0,1438,39.19,32,50.81,2.56,21.15,Healthy
+IOCL_COMP_0042,IOCL,Panipat Refinery,Motor,298.73,307.37,1892,26.49,26,50.1,2.19,25.1,Healthy
+IOCL_COMP_0043,IOCL,Panipat Refinery,Pipeline Pump,302.83,312.08,1338,50.49,173,52.58,4.54,39.39,Warning
+IOCL_COMP_0044,IOCL,Panipat Refinery,Motor,299.44,309.48,1389,35.94,69,46.5,1.65,25.71,Healthy
+IOCL_COMP_0045,IOCL,Panipat Refinery,Gas Compressor,296.59,305.27,1626,31.48,3,49.51,2.39,18.92,Healthy
+IOCL_COMP_0046,IOCL,Panipat Refinery,Motor,300.51,310.79,1474,30.53,42,45.45,1.4,27.53,Healthy
+IOCL_COMP_0047,IOCL,Panipat Refinery,Centrifugal Pump,299.81,309.49,1362,34.59,28,34.88,1.94,23.32,Healthy
+IOCL_COMP_0048,IOCL,Panipat Refinery,Gas Compressor,300.11,311.54,1489,65.02,155,57.58,5.01,26.64,Warning
+IOCL_COMP_0049,IOCL,Panipat Refinery,Motor,297.57,306.25,1347,38.04,40,43.88,2.19,16.77,Healthy
+IOCL_COMP_0050,IOCL,Panipat Refinery,Pipeline Pump,300.15,310.87,1361,37.98,32,53.1,2.21,24.59,Healthy
+IOCL_COMP_0051,IOCL,Panipat Refinery,Centrifugal Pump,297.62,307.65,1546,35.82,4,46.05,2.04,24.14,Healthy
+IOCL_COMP_0052,IOCL,Panipat Refinery,Centrifugal Pump,299.46,308.68,1510,35.64,60,49.79,0.94,27.56,Healthy
+IOCL_COMP_0053,IOCL,Panipat Refinery,Centrifugal Pump,299.96,309.58,1541,53.31,61,46.61,2.62,24.16,Healthy
+IOCL_COMP_0054,IOCL,Panipat Refinery,Gas Compressor,302.07,313.25,1233,47.13,144,52.89,4.28,32.9,Warning
+IOCL_COMP_0055,IOCL,Panipat Refinery,Motor,300.07,309.29,1417,26.51,83,58.15,2.15,25.92,Healthy
+IOCL_COMP_0056,IOCL,Panipat Refinery,Gas Compressor,298.5,308.91,1504,46.61,40,59.56,1.53,19.91,Healthy
+IOCL_COMP_0057,IOCL,Panipat Refinery,Centrifugal Pump,300.43,311.26,1525,38.29,9,43.92,2.45,22.48,Healthy
+IOCL_COMP_0058,IOCL,Panipat Refinery,Motor,302.61,312.96,1310,55.08,181,64.36,5.52,36.93,Warning
+IOCL_COMP_0059,IOCL,Panipat Refinery,Gas Compressor,298.26,307.69,1667,39.37,50,40.89,1.84,23.67,Healthy
+IOCL_COMP_0060,IOCL,Panipat Refinery,Motor,305.0,315.0,1317,71.32,202,72.65,6.06,45.07,Critical
+IOCL_COMP_0061,IOCL,Panipat Refinery,Pipeline Pump,300.63,310.7,1295,58.31,177,61.69,3.73,36.34,Warning
+IOCL_COMP_0062,IOCL,Panipat Refinery,Motor,295.06,305.0,1744,24.55,79,48.56,2.79,20.96,Healthy
+IOCL_COMP_0063,IOCL,Panipat Refinery,Motor,296.94,308.24,1535,38.37,78,54.77,2.33,20.5,Healthy
+IOCL_COMP_0064,IOCL,Panipat Refinery,Motor,299.09,308.59,1168,37.57,65,40.6,2.81,24.71,Healthy
+IOCL_COMP_0065,IOCL,Panipat Refinery,Pipeline Pump,297.66,306.15,1352,46.13,49,59.16,2.36,23.63,Healthy
+IOCL_COMP_0066,IOCL,Panipat Refinery,Motor,297.35,309.0,1516,54.93,52,54.97,1.13,21.34,Healthy
+IOCL_COMP_0067,IOCL,Panipat Refinery,Gas Compressor,298.4,308.36,2089,29.38,30,49.14,2.31,23.99,Healthy
+IOCL_COMP_0068,IOCL,Panipat Refinery,Pipeline Pump,297.25,307.33,1642,40.62,57,50.85,2.71,27.75,Healthy
+IOCL_COMP_0069,IOCL,Panipat Refinery,Centrifugal Pump,303.38,313.82,1160,71.26,228,68.17,6.06,37.87,Critical
+IOCL_COMP_0070,IOCL,Panipat Refinery,Motor,298.22,307.04,1369,34.85,30,41.32,2.19,26.96,Healthy
+IOCL_COMP_0071,IOCL,Panipat Refinery,Gas Compressor,297.98,308.41,1421,31.74,59,53.98,2.44,26.41,Healthy
+IOCL_COMP_0072,IOCL,Panipat Refinery,Motor,296.13,307.21,1620,46.09,6,49.94,2.02,22.9,Healthy
+IOCL_COMP_0073,IOCL,Panipat Refinery,Centrifugal Pump,298.13,308.82,1264,33.67,58,58.22,1.69,23.05,Healthy
+IOCL_COMP_0074,IOCL,Panipat Refinery,Centrifugal Pump,298.9,308.31,1516,44.79,6,44.51,2.39,27.29,Healthy
+IOCL_COMP_0075,IOCL,Panipat Refinery,Centrifugal Pump,298.67,311.26,1739,40.6,28,43.62,1.95,29.71,Healthy
+IOCL_COMP_0076,IOCL,Panipat Refinery,Motor,303.48,314.61,1160,58.9,111,48.07,3.01,35.2,Warning
+IOCL_COMP_0077,IOCL,Panipat Refinery,Centrifugal Pump,302.9,313.8,1440,47.12,98,57.16,2.99,23.98,Warning
+IOCL_COMP_0078,IOCL,Panipat Refinery,Motor,301.25,312.44,1538,50.05,133,62.72,3.67,24.77,Warning
+IOCL_COMP_0079,IOCL,Panipat Refinery,Pipeline Pump,297.93,307.58,1905,25.79,34,49.91,1.5,27.63,Healthy
+IOCL_COMP_0080,IOCL,Panipat Refinery,Gas Compressor,298.96,308.2,1412,45.42,24,56.85,2.24,20.41,Healthy
+IOCL_COMP_0081,IOCL,Panipat Refinery,Pipeline Pump,301.41,311.49,1813,32.08,13,47.79,2.31,25.59,Healthy
+IOCL_COMP_0082,IOCL,Panipat Refinery,Gas Compressor,297.53,308.32,1764,50.1,85,57.02,2.07,22.76,Healthy
+IOCL_COMP_0083,IOCL,Panipat Refinery,Centrifugal Pump,302.71,312.43,1174,58.94,163,56.58,4.18,39.36,Warning
+IOCL_COMP_0084,IOCL,Panipat Refinery,Centrifugal Pump,303.33,312.28,1393,60.56,171,45.79,3.68,29.8,Warning
+IOCL_COMP_0085,IOCL,Panipat Refinery,Gas Compressor,300.45,312.07,1403,42.21,0,50.79,2.19,25.6,Healthy
+IOCL_COMP_0086,IOCL,Panipat Refinery,Centrifugal Pump,300.53,311.41,1359,44.37,17,52.46,2.16,28.53,Healthy
+IOCL_COMP_0087,IOCL,Panipat Refinery,Pipeline Pump,298.74,308.84,1186,37.36,71,44.66,1.41,29.74,Healthy
+IOCL_COMP_0088,IOCL,Panipat Refinery,Pipeline Pump,301.97,312.02,1400,62.93,158,51.38,4.2,38.34,Warning
+IOCL_COMP_0089,IOCL,Panipat Refinery,Pipeline Pump,301.94,312.1,1327,50.99,126,59.1,5.74,32.38,Warning
+IOCL_COMP_0090,IOCL,Panipat Refinery,Motor,300.89,310.45,1876,38.04,59,56.91,2.38,25.23,Healthy
+IOCL_COMP_0091,IOCL,Panipat Refinery,Centrifugal Pump,301.38,311.94,1502,54.9,115,55.47,4.0,38.96,Warning
+IOCL_COMP_0092,IOCL,Panipat Refinery,Gas Compressor,297.7,307.16,1618,50.22,53,53.73,1.37,22.94,Healthy
+IOCL_COMP_0093,IOCL,Panipat Refinery,Pipeline Pump,304.01,315.0,1160,61.91,201,65.37,7.29,48.72,Critical
+IOCL_COMP_0094,IOCL,Panipat Refinery,Gas Compressor,303.18,312.27,1552,52.5,120,63.85,3.14,34.02,Warning
+IOCL_COMP_0095,IOCL,Panipat Refinery,Centrifugal Pump,299.89,308.62,1555,29.32,26,50.53,2.39,29.15,Healthy
+IOCL_COMP_0096,IOCL,Panipat Refinery,Gas Compressor,299.61,310.7,1254,42.9,49,52.79,1.87,19.16,Healthy
+IOCL_COMP_0097,IOCL,Panipat Refinery,Gas Compressor,297.06,306.92,1542,43.72,31,44.87,1.66,24.4,Healthy
+IOCL_COMP_0098,IOCL,Panipat Refinery,Motor,301.24,310.04,1606,29.31,83,53.09,1.53,21.3,Healthy
+IOCL_COMP_0099,IOCL,Panipat Refinery,Centrifugal Pump,298.41,308.67,1637,37.95,17,41.35,2.36,23.79,Healthy
+IOCL_COMP_0100,IOCL,Panipat Refinery,Motor,297.65,306.37,1543,48.37,88,48.8,1.9,20.52,Healthy
+IOCL_COMP_0101,IOCL,Panipat Refinery,Gas Compressor,297.26,306.68,1652,23.15,64,54.37,2.31,27.6,Healthy
+IOCL_COMP_0102,IOCL,Panipat Refinery,Pipeline Pump,298.31,307.46,1524,30.2,52,50.43,2.4,29.91,Healthy
+IOCL_COMP_0103,IOCL,Panipat Refinery,Motor,299.61,309.37,1463,41.79,47,46.07,2.13,19.76,Healthy
+IOCL_COMP_0104,IOCL,Panipat Refinery,Centrifugal Pump,299.26,309.97,1372,43.36,38,45.34,2.01,29.67,Healthy
+IOCL_COMP_0105,IOCL,Panipat Refinery,Pipeline Pump,299.46,310.98,1423,30.11,39,44.39,1.87,14.58,Healthy
+IOCL_COMP_0106,IOCL,Panipat Refinery,Pipeline Pump,301.46,312.58,1409,50.19,91,62.72,4.78,30.16,Warning
+IOCL_COMP_0107,IOCL,Panipat Refinery,Centrifugal Pump,299.77,309.4,1223,55.59,132,50.44,3.79,27.87,Warning
+IOCL_COMP_0108,IOCL,Panipat Refinery,Pipeline Pump,299.01,309.33,1552,25.67,35,44.9,1.8,22.39,Healthy
+IOCL_COMP_0109,IOCL,Panipat Refinery,Centrifugal Pump,300.21,310.86,1372,43.43,79,51.2,1.6,27.4,Healthy
+IOCL_COMP_0110,IOCL,Panipat Refinery,Pipeline Pump,300.59,311.45,1386,53.18,103,57.7,3.62,37.05,Warning
+IOCL_COMP_0111,IOCL,Panipat Refinery,Centrifugal Pump,298.7,308.99,1342,30.85,23,36.95,2.28,19.15,Healthy
+IOCL_COMP_0112,IOCL,Panipat Refinery,Pipeline Pump,298.95,309.43,1333,37.48,46,56.35,2.86,27.95,Healthy
+IOCL_COMP_0113,IOCL,Panipat Refinery,Gas Compressor,303.5,314.73,1164,72.8,200,66.94,6.83,45.98,Critical
+IOCL_COMP_0114,IOCL,Panipat Refinery,Motor,302.49,312.53,1160,68.0,144,77.91,4.56,27.38,Warning
+IOCL_COMP_0115,IOCL,Panipat Refinery,Gas Compressor,299.11,310.18,1331,37.01,4,48.98,2.43,22.63,Healthy
+IOCL_COMP_0116,IOCL,Panipat Refinery,Gas Compressor,299.25,310.15,1535,41.24,75,45.63,1.58,28.11,Healthy
+IOCL_COMP_0117,IOCL,Panipat Refinery,Motor,302.49,314.19,1170,50.58,109,59.26,3.75,37.92,Warning
+IOCL_COMP_0118,IOCL,Panipat Refinery,Motor,297.31,307.36,1580,45.48,79,49.97,2.23,25.28,Healthy
+IOCL_COMP_0119,IOCL,Panipat Refinery,Centrifugal Pump,297.64,307.87,1490,51.52,79,54.71,2.32,25.51,Healthy
+IOCL_COMP_0120,IOCL,Panipat Refinery,Pipeline Pump,303.32,313.99,1190,71.15,213,75.76,7.92,40.85,Critical
+IOCL_COMP_0121,IOCL,Panipat Refinery,Gas Compressor,300.24,310.86,1479,37.14,85,47.49,2.02,25.89,Healthy
+IOCL_COMP_0122,IOCL,Panipat Refinery,Motor,298.73,309.26,1246,34.12,54,54.14,2.2,10.0,Healthy
+IOCL_COMP_0123,IOCL,Panipat Refinery,Pipeline Pump,303.92,312.82,1608,32.82,131,65.5,4.19,22.25,Warning
+IOCL_COMP_0124,IOCL,Panipat Refinery,Pipeline Pump,299.88,310.17,1655,34.71,47,38.69,2.35,31.0,Healthy
+IOCL_COMP_0125,IOCL,Panipat Refinery,Pipeline Pump,296.11,305.0,1397,25.26,89,48.22,2.2,18.28,Healthy
+IOCL_COMP_0126,IOCL,Panipat Refinery,Motor,302.6,312.66,1320,39.4,136,55.34,4.21,34.84,Warning
+IOCL_COMP_0127,IOCL,Panipat Refinery,Gas Compressor,298.79,308.58,1601,46.02,81,47.52,2.16,23.26,Healthy
+IOCL_COMP_0128,IOCL,Panipat Refinery,Motor,299.13,308.68,1619,38.23,65,46.48,1.84,21.97,Healthy
+IOCL_COMP_0129,IOCL,Panipat Refinery,Gas Compressor,298.96,309.14,1702,33.75,64,57.48,1.81,20.5,Healthy
+IOCL_COMP_0130,IOCL,Panipat Refinery,Motor,296.42,307.65,1796,42.81,76,43.52,2.91,22.59,Healthy
+IOCL_COMP_0131,IOCL,Panipat Refinery,Pipeline Pump,303.44,314.46,1724,56.99,169,54.82,3.71,24.77,Warning
+IOCL_COMP_0132,IOCL,Panipat Refinery,Centrifugal Pump,299.87,310.35,1553,30.04,46,49.13,2.51,25.72,Healthy
+IOCL_COMP_0133,IOCL,Panipat Refinery,Pipeline Pump,297.54,308.24,1160,41.06,80,60.85,1.25,23.03,Healthy
+IOCL_COMP_0134,IOCL,Panipat Refinery,Motor,297.94,308.77,1635,39.22,22,51.99,2.01,36.72,Healthy
+IOCL_COMP_0135,IOCL,Panipat Refinery,Centrifugal Pump,298.73,307.37,1452,47.18,2,41.32,0.92,24.13,Healthy
+IOCL_COMP_0136,IOCL,Panipat Refinery,Gas Compressor,298.55,308.28,1215,41.62,17,51.31,1.11,28.54,Healthy
+IOCL_COMP_0137,IOCL,Panipat Refinery,Gas Compressor,299.86,310.33,1667,42.17,15,52.34,1.09,18.0,Healthy
+IOCL_COMP_0138,IOCL,Panipat Refinery,Motor,298.34,308.65,1608,46.94,3,53.74,1.56,24.95,Healthy
+IOCL_COMP_0139,IOCL,Panipat Refinery,Motor,304.07,315.0,1160,80.0,241,76.53,6.4,56.56,Critical
+IOCL_COMP_0140,IOCL,Panipat Refinery,Pipeline Pump,298.66,308.27,1847,37.16,2,48.75,2.6,26.34,Healthy
+IOCL_COMP_0141,IOCL,Panipat Refinery,Pipeline Pump,299.83,311.86,1607,38.93,12,48.85,2.66,21.6,Healthy
+IOCL_COMP_0142,IOCL,Panipat Refinery,Gas Compressor,296.66,305.71,1456,37.55,69,56.85,2.27,20.35,Healthy
+IOCL_COMP_0143,IOCL,Panipat Refinery,Motor,300.15,311.05,1555,34.46,15,53.62,1.5,25.57,Healthy
+IOCL_COMP_0144,IOCL,Panipat Refinery,Motor,298.2,308.37,1410,41.28,22,45.65,1.3,26.8,Healthy
+IOCL_COMP_0145,IOCL,Panipat Refinery,Pipeline Pump,298.13,307.83,1376,36.8,53,45.19,1.49,31.57,Healthy
+IOCL_COMP_0146,IOCL,Panipat Refinery,Centrifugal Pump,299.19,309.89,1688,34.7,58,49.36,1.87,25.75,Healthy
+IOCL_COMP_0147,IOCL,Panipat Refinery,Centrifugal Pump,298.04,306.98,1576,36.37,6,38.55,2.25,27.86,Healthy
+IOCL_COMP_0148,IOCL,Panipat Refinery,Gas Compressor,298.03,307.6,1350,39.67,21,49.01,1.59,23.3,Healthy
+IOCL_COMP_0149,IOCL,Panipat Refinery,Centrifugal Pump,299.61,309.0,1543,26.59,89,45.09,1.86,23.95,Healthy
+IOCL_COMP_0150,IOCL,Panipat Refinery,Pipeline Pump,300.23,310.81,1723,49.57,48,50.85,1.98,28.04,Healthy
+IOCL_COMP_0151,IOCL,Panipat Refinery,Pipeline Pump,299.28,308.11,1398,35.8,43,51.9,1.99,28.55,Healthy
+IOCL_COMP_0152,IOCL,Panipat Refinery,Pipeline Pump,299.94,310.9,1363,41.86,73,44.96,1.18,22.85,Healthy
+IOCL_COMP_0153,IOCL,Panipat Refinery,Motor,302.46,314.57,1380,74.58,175,59.42,4.22,27.6,Warning
+IOCL_COMP_0154,IOCL,Panipat Refinery,Motor,297.9,307.38,1780,47.27,5,53.66,1.82,23.8,Healthy
+IOCL_COMP_0155,IOCL,Panipat Refinery,Centrifugal Pump,299.44,310.68,1616,53.8,79,52.49,1.88,27.31,Healthy
+IOCL_COMP_0156,IOCL,Panipat Refinery,Gas Compressor,304.0,315.0,1354,53.27,135,62.61,5.54,36.17,Warning
+IOCL_COMP_0157,IOCL,Panipat Refinery,Motor,298.56,308.3,1520,39.08,40,56.59,1.88,24.21,Healthy
+IOCL_COMP_0158,IOCL,Panipat Refinery,Centrifugal Pump,299.36,310.45,1842,39.63,38,50.87,1.92,26.11,Healthy
+IOCL_COMP_0159,IOCL,Panipat Refinery,Gas Compressor,298.57,308.68,1631,35.65,72,46.79,2.85,34.84,Healthy
+IOCL_COMP_0160,IOCL,Panipat Refinery,Centrifugal Pump,296.99,306.22,1531,45.17,43,50.96,2.09,26.12,Healthy
+IOCL_COMP_0161,IOCL,Panipat Refinery,Centrifugal Pump,298.21,308.19,1264,28.71,72,42.39,2.38,24.98,Healthy
+IOCL_COMP_0162,IOCL,Panipat Refinery,Motor,302.91,312.82,1246,56.11,224,81.8,5.18,50.06,Critical
+IOCL_COMP_0163,IOCL,Panipat Refinery,Gas Compressor,299.76,312.33,1160,43.56,5,38.96,2.21,23.17,Healthy
+IOCL_COMP_0164,IOCL,Panipat Refinery,Centrifugal Pump,297.41,308.03,1289,47.93,12,45.95,1.3,30.38,Healthy
+IOCL_COMP_0165,IOCL,Panipat Refinery,Centrifugal Pump,300.79,311.77,1406,37.32,11,48.61,2.76,25.75,Healthy
+IOCL_COMP_0166,IOCL,Panipat Refinery,Centrifugal Pump,298.26,308.22,1784,38.03,68,46.03,1.72,21.78,Healthy
+IOCL_COMP_0167,IOCL,Panipat Refinery,Gas Compressor,297.6,308.8,1512,43.64,30,35.61,2.28,23.35,Healthy
+IOCL_COMP_0168,IOCL,Panipat Refinery,Motor,298.72,308.32,1167,45.38,65,49.22,1.84,20.14,Healthy
+IOCL_COMP_0169,IOCL,Panipat Refinery,Motor,298.77,310.06,1586,26.94,17,49.13,1.97,27.46,Healthy
+IOCL_COMP_0170,IOCL,Panipat Refinery,Motor,295.0,305.35,1369,26.63,82,47.06,2.21,17.44,Healthy
+IOCL_COMP_0171,IOCL,Panipat Refinery,Gas Compressor,299.42,309.45,1393,30.16,40,53.13,1.24,28.26,Healthy
+IOCL_COMP_0172,IOCL,Panipat Refinery,Pipeline Pump,298.38,307.02,1523,42.91,80,41.32,2.25,24.36,Healthy
+IOCL_COMP_0173,IOCL,Panipat Refinery,Pipeline Pump,302.85,311.59,1408,67.96,132,69.52,4.51,32.49,Warning
+IOCL_COMP_0174,IOCL,Panipat Refinery,Pipeline Pump,301.7,312.63,1212,61.06,142,75.07,4.15,27.28,Warning
+IOCL_COMP_0175,IOCL,Panipat Refinery,Motor,302.78,313.23,1499,50.73,151,64.64,4.07,30.34,Warning
+IOCL_COMP_0176,IOCL,Panipat Refinery,Centrifugal Pump,297.06,308.66,1532,43.16,13,45.32,1.47,23.06,Healthy
+IOCL_COMP_0177,IOCL,Panipat Refinery,Gas Compressor,301.48,311.28,1376,58.99,118,71.14,4.48,37.22,Warning
+IOCL_COMP_0178,IOCL,Panipat Refinery,Motor,300.85,310.58,1165,44.34,159,64.36,4.43,34.4,Warning
+IOCL_COMP_0179,IOCL,Panipat Refinery,Pipeline Pump,300.97,310.25,1919,26.41,10,43.94,0.9,25.45,Healthy
+IOCL_COMP_0180,IOCL,Panipat Refinery,Centrifugal Pump,297.21,306.11,1689,43.69,20,57.06,1.66,24.88,Healthy
+IOCL_COMP_0181,IOCL,Panipat Refinery,Centrifugal Pump,303.97,314.45,1226,75.09,200,79.93,6.16,50.99,Critical
+IOCL_COMP_0182,IOCL,Panipat Refinery,Pipeline Pump,298.11,307.54,1449,51.94,34,49.54,2.09,22.95,Healthy
+IOCL_COMP_0183,IOCL,Panipat Refinery,Gas Compressor,303.31,313.23,1303,53.29,101,59.17,3.64,36.19,Warning
+IOCL_COMP_0184,IOCL,Panipat Refinery,Pipeline Pump,296.92,306.02,1463,34.51,75,57.99,2.5,27.78,Healthy
+IOCL_COMP_0185,IOCL,Panipat Refinery,Pipeline Pump,298.16,307.0,1690,41.93,2,54.43,1.89,23.43,Healthy
+IOCL_COMP_0186,IOCL,Panipat Refinery,Motor,299.57,308.39,1682,37.84,35,42.71,0.96,23.45,Healthy
+IOCL_COMP_0187,IOCL,Panipat Refinery,Pipeline Pump,300.51,310.79,1903,37.66,64,52.77,1.77,21.94,Healthy
+IOCL_COMP_0188,IOCL,Panipat Refinery,Centrifugal Pump,296.03,307.06,1434,31.59,25,42.1,1.9,31.05,Healthy
+IOCL_COMP_0189,IOCL,Panipat Refinery,Centrifugal Pump,296.51,306.22,1363,45.91,31,49.43,1.68,24.29,Healthy
+IOCL_COMP_0190,IOCL,Panipat Refinery,Motor,300.44,310.87,1670,16.66,47,47.67,3.04,29.3,Healthy
+IOCL_COMP_0191,IOCL,Panipat Refinery,Pipeline Pump,301.69,311.23,1640,56.95,149,51.86,4.23,20.96,Warning
+IOCL_COMP_0192,IOCL,Panipat Refinery,Centrifugal Pump,302.04,313.21,1160,51.95,164,66.08,3.04,35.15,Warning
+IOCL_COMP_0193,IOCL,Panipat Refinery,Centrifugal Pump,300.56,310.37,1519,44.84,79,41.37,1.89,22.18,Healthy
+IOCL_COMP_0194,IOCL,Panipat Refinery,Pipeline Pump,299.52,309.96,1415,39.09,68,55.45,1.58,24.58,Healthy
+IOCL_COMP_0195,IOCL,Panipat Refinery,Gas Compressor,298.42,307.12,1803,31.81,46,53.13,1.69,21.5,Healthy
+IOCL_COMP_0196,IOCL,Panipat Refinery,Motor,299.69,309.86,1687,35.69,87,47.96,1.67,27.62,Healthy
+IOCL_COMP_0197,IOCL,Panipat Refinery,Pipeline Pump,300.28,310.03,1553,44.07,63,48.12,1.85,23.88,Healthy
+IOCL_COMP_0198,IOCL,Panipat Refinery,Gas Compressor,297.7,307.6,1551,44.92,87,47.5,2.9,23.37,Healthy
+IOCL_COMP_0199,IOCL,Panipat Refinery,Centrifugal Pump,301.83,311.28,1173,50.75,169,67.09,4.17,31.58,Warning
+IOCL_COMP_0200,IOCL,Panipat Refinery,Motor,305.0,315.0,1160,67.52,201,86.51,7.24,43.39,Critical
+IOCL_COMP_0201,IOCL,Panipat Refinery,Centrifugal Pump,299.71,309.25,1589,45.41,39,42.2,2.01,19.54,Healthy
+IOCL_COMP_0202,IOCL,Panipat Refinery,Centrifugal Pump,297.82,308.21,1492,32.81,30,48.26,1.43,25.72,Healthy
+IOCL_COMP_0203,IOCL,Panipat Refinery,Centrifugal Pump,301.92,312.26,1413,38.77,136,62.29,6.68,33.39,Warning
+IOCL_COMP_0204,IOCL,Panipat Refinery,Pipeline Pump,304.72,315.0,1277,59.22,220,76.51,9.57,48.73,Critical
+IOCL_COMP_0205,IOCL,Panipat Refinery,Pipeline Pump,298.84,307.81,1771,30.35,20,48.37,1.57,21.81,Healthy
+IOCL_COMP_0206,IOCL,Panipat Refinery,Pipeline Pump,298.62,308.18,1343,23.03,44,41.74,2.06,27.92,Healthy
+IOCL_COMP_0207,IOCL,Panipat Refinery,Pipeline Pump,303.57,313.5,1309,46.36,112,65.93,5.88,25.19,Warning
+IOCL_COMP_0208,IOCL,Panipat Refinery,Gas Compressor,300.02,308.86,1652,47.77,36,48.39,2.28,31.04,Healthy
+IOCL_COMP_0209,IOCL,Panipat Refinery,Centrifugal Pump,298.43,308.0,1384,45.82,31,41.14,1.87,24.41,Healthy
+IOCL_COMP_0210,IOCL,Panipat Refinery,Centrifugal Pump,304.4,315.0,1167,67.82,230,80.12,7.24,53.64,Critical
+IOCL_COMP_0211,IOCL,Panipat Refinery,Motor,298.2,306.77,1258,23.31,1,49.9,1.32,29.02,Healthy
+IOCL_COMP_0212,IOCL,Panipat Refinery,Centrifugal Pump,298.21,307.53,1662,31.56,78,43.07,2.59,25.42,Healthy
+IOCL_COMP_0213,IOCL,Panipat Refinery,Gas Compressor,299.27,309.28,1618,31.47,13,58.35,1.71,30.22,Healthy
+IOCL_COMP_0214,IOCL,Panipat Refinery,Centrifugal Pump,304.76,315.0,1294,65.8,208,80.61,8.85,43.45,Critical
+IOCL_COMP_0215,IOCL,Panipat Refinery,Gas Compressor,297.87,307.59,1858,29.97,46,43.29,2.81,26.5,Healthy
+IOCL_COMP_0216,IOCL,Panipat Refinery,Motor,297.96,308.06,1431,39.15,11,39.13,2.34,25.29,Healthy
+IOCL_COMP_0217,IOCL,Panipat Refinery,Centrifugal Pump,298.03,307.32,1680,28.63,23,50.56,3.04,29.94,Healthy
+IOCL_COMP_0218,IOCL,Panipat Refinery,Centrifugal Pump,301.46,312.3,1338,43.8,173,61.08,4.19,43.57,Warning
+IOCL_COMP_0219,IOCL,Panipat Refinery,Motor,303.17,312.65,1175,60.77,135,66.67,3.43,34.12,Warning
+IOCL_COMP_0220,IOCL,Panipat Refinery,Pipeline Pump,298.28,308.95,1471,36.01,55,42.35,1.68,31.03,Healthy
+IOCL_COMP_0221,IOCL,Panipat Refinery,Motor,297.3,307.05,1262,29.89,68,54.8,1.93,31.56,Healthy
+IOCL_COMP_0222,IOCL,Panipat Refinery,Gas Compressor,301.96,312.98,1160,56.64,115,57.61,5.39,38.82,Warning
+IOCL_COMP_0223,IOCL,Panipat Refinery,Gas Compressor,299.99,309.78,1387,39.58,72,46.99,2.77,25.36,Healthy
+IOCL_COMP_0224,IOCL,Panipat Refinery,Gas Compressor,299.58,310.46,1691,49.36,14,51.04,2.08,28.96,Healthy
+IOCL_COMP_0225,IOCL,Panipat Refinery,Centrifugal Pump,304.22,315.0,1342,69.96,205,68.37,8.46,49.8,Critical
+IOCL_COMP_0226,IOCL,Panipat Refinery,Motor,298.11,308.38,1546,32.69,24,48.65,2.13,22.5,Healthy
+IOCL_COMP_0227,IOCL,Panipat Refinery,Gas Compressor,300.05,310.82,1500,44.05,52,48.39,1.38,26.69,Healthy
+IOCL_COMP_0228,IOCL,Panipat Refinery,Motor,301.61,312.78,1678,39.99,23,48.82,1.5,17.04,Healthy
+IOCL_COMP_0229,IOCL,Panipat Refinery,Motor,301.95,310.77,1257,53.02,123,56.28,3.67,32.29,Warning
+IOCL_COMP_0230,IOCL,Panipat Refinery,Gas Compressor,299.29,308.85,1537,37.77,89,44.16,1.62,28.04,Healthy
+IOCL_COMP_0231,IOCL,Panipat Refinery,Pipeline Pump,297.19,307.15,1571,22.22,38,47.8,2.43,25.8,Healthy
+IOCL_COMP_0232,IOCL,Panipat Refinery,Centrifugal Pump,300.0,311.16,2054,44.07,42,48.82,2.49,21.76,Healthy
+IOCL_COMP_0233,IOCL,Panipat Refinery,Centrifugal Pump,297.72,308.04,1432,32.5,12,50.07,1.93,16.29,Healthy
+IOCL_COMP_0234,IOCL,Panipat Refinery,Pipeline Pump,297.12,306.42,1624,39.75,74,53.33,2.38,28.29,Healthy
+IOCL_COMP_0235,IOCL,Panipat Refinery,Motor,302.21,313.59,1506,58.01,95,68.17,2.32,32.55,Warning
+IOCL_COMP_0236,IOCL,Panipat Refinery,Gas Compressor,299.88,311.14,1288,49.29,50,42.14,1.43,23.06,Healthy
+IOCL_COMP_0237,IOCL,Panipat Refinery,Gas Compressor,296.63,307.15,1672,46.43,47,45.83,1.98,23.88,Healthy
+IOCL_COMP_0238,IOCL,Panipat Refinery,Centrifugal Pump,295.1,305.0,1550,29.32,75,46.71,1.94,21.37,Healthy
+IOCL_COMP_0239,IOCL,Panipat Refinery,Motor,302.63,312.94,1272,53.67,102,57.94,2.81,36.31,Warning
+IOCL_COMP_0240,IOCL,Panipat Refinery,Gas Compressor,300.01,310.49,1760,29.91,48,46.14,1.38,21.18,Healthy
+IOCL_COMP_0241,IOCL,Panipat Refinery,Centrifugal Pump,303.49,313.07,1272,54.39,123,62.68,2.79,25.98,Warning
+IOCL_COMP_0242,IOCL,Panipat Refinery,Pipeline Pump,302.84,313.37,1196,72.08,222,70.87,6.63,50.07,Critical
+IOCL_COMP_0243,IOCL,Panipat Refinery,Pipeline Pump,303.75,314.57,1218,78.59,194,78.29,8.21,41.34,Critical
+IOCL_COMP_0244,IOCL,Panipat Refinery,Centrifugal Pump,298.22,308.1,1368,48.13,61,52.42,1.85,26.57,Healthy
+IOCL_COMP_0245,IOCL,Panipat Refinery,Motor,299.36,308.29,1523,37.54,52,51.12,1.69,14.0,Healthy
+IOCL_COMP_0246,IOCL,Panipat Refinery,Motor,301.94,312.49,1636,59.66,162,58.65,4.17,39.52,Warning
+IOCL_COMP_0247,IOCL,Panipat Refinery,Motor,298.33,307.46,1805,41.14,64,44.46,1.94,26.04,Healthy
+IOCL_COMP_0248,IOCL,Panipat Refinery,Centrifugal Pump,303.83,314.23,1213,68.21,237,68.37,5.66,45.47,Critical
+IOCL_COMP_0249,IOCL,Panipat Refinery,Centrifugal Pump,298.11,308.27,1684,43.61,79,50.76,1.88,21.73,Healthy
+IOCL_COMP_0250,IOCL,Panipat Refinery,Gas Compressor,301.41,311.92,1216,55.77,123,50.28,2.87,38.1,Warning
+IOCL_COMP_0251,IOCL,Panipat Refinery,Motor,301.16,310.79,1421,66.0,155,54.78,4.03,39.36,Warning
+IOCL_COMP_0252,IOCL,Panipat Refinery,Gas Compressor,303.97,315.0,1160,54.22,151,52.25,3.99,31.91,Warning
+IOCL_COMP_0253,IOCL,Panipat Refinery,Gas Compressor,298.36,307.64,1519,42.12,5,42.08,1.18,31.97,Healthy
+IOCL_COMP_0254,IOCL,Panipat Refinery,Gas Compressor,298.34,308.02,1648,52.18,54,50.9,1.24,18.46,Healthy
+IOCL_COMP_0255,IOCL,Panipat Refinery,Pipeline Pump,298.18,306.8,1697,29.31,36,55.47,2.91,23.01,Healthy
+IOCL_COMP_0256,IOCL,Panipat Refinery,Motor,297.02,307.52,1460,29.3,81,46.55,1.77,22.7,Healthy
+IOCL_COMP_0257,IOCL,Panipat Refinery,Pipeline Pump,297.56,308.95,1311,50.92,50,42.92,2.0,22.04,Healthy
+IOCL_COMP_0258,IOCL,Panipat Refinery,Motor,299.46,310.66,1764,34.76,29,48.92,1.61,20.03,Healthy
+IOCL_COMP_0259,IOCL,Panipat Refinery,Pipeline Pump,297.97,308.17,1205,37.63,86,55.58,2.56,21.66,Healthy
+IOCL_COMP_0260,IOCL,Panipat Refinery,Pipeline Pump,302.46,311.11,1538,53.29,111,72.65,2.82,38.59,Warning
+IOCL_COMP_0261,IOCL,Panipat Refinery,Motor,298.1,307.01,1657,43.41,47,56.93,2.5,21.62,Healthy
+IOCL_COMP_0262,IOCL,Panipat Refinery,Motor,296.86,308.04,1409,49.84,33,50.63,2.16,22.77,Healthy
+IOCL_COMP_0263,IOCL,Panipat Refinery,Motor,304.19,314.77,1249,69.28,226,65.61,7.6,44.62,Critical
+IOCL_COMP_0264,IOCL,Panipat Refinery,Centrifugal Pump,301.55,311.08,1644,67.37,181,65.07,3.89,32.5,Warning
+IOCL_COMP_0265,IOCL,Panipat Refinery,Gas Compressor,298.08,307.57,1887,37.62,63,56.84,1.3,26.07,Healthy
+IOCL_COMP_0266,IOCL,Panipat Refinery,Motor,298.54,308.32,1339,46.66,53,44.15,1.95,19.06,Healthy
+IOCL_COMP_0267,IOCL,Panipat Refinery,Centrifugal Pump,299.89,309.86,1342,50.29,87,46.17,1.45,16.95,Healthy
+IOCL_COMP_0268,IOCL,Panipat Refinery,Motor,296.75,306.26,1683,35.0,81,49.78,1.64,24.26,Healthy
+IOCL_COMP_0269,IOCL,Panipat Refinery,Motor,303.96,314.99,1160,77.6,226,68.18,8.05,44.26,Critical
+IOCL_COMP_0270,IOCL,Panipat Refinery,Pipeline Pump,299.31,308.94,1746,31.93,73,51.89,1.8,25.4,Healthy
+IOCL_COMP_0271,IOCL,Panipat Refinery,Pipeline Pump,298.56,307.7,1594,38.35,28,45.3,1.97,24.54,Healthy
+IOCL_COMP_0272,IOCL,Panipat Refinery,Gas Compressor,301.87,311.57,1748,63.47,180,60.18,5.14,24.1,Warning
+IOCL_COMP_0273,IOCL,Panipat Refinery,Gas Compressor,301.6,311.0,1309,56.65,164,65.36,3.29,36.0,Warning
+IOCL_COMP_0274,IOCL,Panipat Refinery,Motor,298.92,308.5,1798,37.17,0,56.87,1.6,26.97,Healthy
+IOCL_COMP_0275,IOCL,Panipat Refinery,Motor,298.11,308.61,1496,16.7,34,32.69,2.64,28.92,Healthy
+IOCL_COMP_0276,IOCL,Panipat Refinery,Gas Compressor,298.14,309.65,1546,27.66,9,45.9,2.01,19.97,Healthy
+IOCL_COMP_0277,IOCL,Panipat Refinery,Centrifugal Pump,301.19,311.57,1548,27.64,18,55.73,2.04,22.84,Healthy
+IOCL_COMP_0278,IOCL,Panipat Refinery,Gas Compressor,297.8,307.91,1290,46.7,59,47.48,2.58,23.2,Healthy
+IOCL_COMP_0279,IOCL,Panipat Refinery,Pipeline Pump,297.05,307.65,1392,34.11,26,48.01,2.06,17.18,Healthy
+IOCL_COMP_0280,IOCL,Panipat Refinery,Centrifugal Pump,299.45,309.15,1509,39.3,12,47.37,1.48,23.85,Healthy
+IOCL_COMP_0281,IOCL,Panipat Refinery,Centrifugal Pump,297.24,306.94,1301,45.53,72,47.54,1.57,24.37,Healthy
+IOCL_COMP_0282,IOCL,Panipat Refinery,Gas Compressor,297.26,306.09,1357,48.86,71,44.33,2.23,20.65,Healthy
+IOCL_COMP_0283,IOCL,Panipat Refinery,Gas Compressor,297.27,307.3,1559,56.62,71,51.15,1.7,26.74,Healthy
+IOCL_COMP_0284,IOCL,Panipat Refinery,Centrifugal Pump,296.54,305.87,1507,34.66,43,46.34,1.35,29.62,Healthy
+IOCL_COMP_0285,IOCL,Panipat Refinery,Pipeline Pump,298.26,309.1,1544,30.16,21,41.26,1.89,20.97,Healthy
+IOCL_COMP_0286,IOCL,Panipat Refinery,Pipeline Pump,296.82,307.47,1570,39.52,57,55.21,1.78,21.1,Healthy
+IOCL_COMP_0287,IOCL,Panipat Refinery,Gas Compressor,298.27,308.2,1400,21.82,72,45.2,2.18,24.55,Healthy
+IOCL_COMP_0288,IOCL,Panipat Refinery,Pipeline Pump,300.85,311.45,1798,44.13,85,56.55,2.93,27.8,Healthy
+IOCL_COMP_0289,IOCL,Panipat Refinery,Gas Compressor,298.25,308.22,1489,42.97,40,44.4,1.9,14.58,Healthy
+IOCL_COMP_0290,IOCL,Panipat Refinery,Centrifugal Pump,298.24,308.6,1812,40.4,64,55.22,1.38,33.59,Healthy
+IOCL_COMP_0291,IOCL,Panipat Refinery,Pipeline Pump,298.75,309.89,1339,35.69,30,55.22,1.07,26.24,Healthy
+IOCL_COMP_0292,IOCL,Panipat Refinery,Centrifugal Pump,300.86,309.6,1839,33.52,72,45.76,1.39,19.65,Healthy
+IOCL_COMP_0293,IOCL,Panipat Refinery,Centrifugal Pump,297.17,307.76,1430,28.3,51,45.36,2.17,22.89,Healthy
+IOCL_COMP_0294,IOCL,Panipat Refinery,Pipeline Pump,299.34,310.2,1494,29.65,45,48.38,2.24,18.16,Healthy
+IOCL_COMP_0295,IOCL,Panipat Refinery,Pipeline Pump,301.28,311.61,1220,60.66,182,45.16,2.94,32.33,Warning
+IOCL_COMP_0296,IOCL,Panipat Refinery,Gas Compressor,296.75,306.27,1477,34.85,23,48.76,1.67,29.91,Healthy
+IOCL_COMP_0297,IOCL,Panipat Refinery,Motor,297.53,307.61,1572,47.72,71,45.0,2.38,24.17,Healthy
+IOCL_COMP_0298,IOCL,Panipat Refinery,Pipeline Pump,305.0,315.0,1160,72.53,249,70.56,8.68,45.47,Critical
+IOCL_COMP_0299,IOCL,Panipat Refinery,Centrifugal Pump,297.95,306.98,1650,31.44,70,53.49,1.35,24.51,Healthy
+IOCL_COMP_0300,IOCL,Panipat Refinery,Centrifugal Pump,295.92,307.53,1473,39.13,17,50.86,2.36,25.1,Healthy
+IOCL_COMP_0301,IOCL,Panipat Refinery,Motor,299.12,310.53,1644,53.72,28,52.51,1.1,34.44,Healthy
+IOCL_COMP_0302,IOCL,Panipat Refinery,Motor,300.29,310.32,1740,32.49,70,51.13,1.87,30.32,Healthy
+IOCL_COMP_0303,IOCL,Panipat Refinery,Motor,299.62,307.89,1534,41.28,73,49.12,2.48,22.54,Healthy
+IOCL_COMP_0304,IOCL,Panipat Refinery,Gas Compressor,299.92,308.09,1656,35.33,46,43.44,2.17,28.91,Healthy
+IOCL_COMP_0305,IOCL,Panipat Refinery,Gas Compressor,298.34,309.04,1706,37.3,4,44.53,1.68,27.35,Healthy
+IOCL_COMP_0306,IOCL,Panipat Refinery,Centrifugal Pump,297.24,305.9,1699,33.63,56,49.65,2.62,18.76,Healthy
+IOCL_COMP_0307,IOCL,Panipat Refinery,Pipeline Pump,298.3,308.6,1773,27.36,68,50.85,2.52,23.25,Healthy
+IOCL_COMP_0308,IOCL,Panipat Refinery,Centrifugal Pump,299.0,309.28,1654,42.49,11,43.09,2.5,28.67,Healthy
+IOCL_COMP_0309,IOCL,Panipat Refinery,Gas Compressor,296.71,306.62,1584,28.84,24,46.2,1.3,26.43,Healthy
+IOCL_COMP_0310,IOCL,Panipat Refinery,Pipeline Pump,303.05,314.06,1174,72.58,229,68.87,6.2,40.37,Critical
+IOCL_COMP_0311,IOCL,Panipat Refinery,Motor,298.52,308.64,1515,34.61,70,46.24,3.25,20.92,Healthy
+IOCL_COMP_0312,IOCL,Panipat Refinery,Pipeline Pump,302.45,312.79,1301,44.74,15,43.45,2.45,23.16,Healthy
+IOCL_COMP_0313,IOCL,Panipat Refinery,Centrifugal Pump,300.43,310.88,1725,41.48,83,45.78,2.31,28.84,Healthy
+IOCL_COMP_0314,IOCL,Panipat Refinery,Motor,303.8,314.98,1386,57.01,178,59.1,3.2,33.55,Warning
+IOCL_COMP_0315,IOCL,Panipat Refinery,Motor,301.58,312.35,1353,61.19,180,63.3,4.33,27.16,Warning
+IOCL_COMP_0316,IOCL,Panipat Refinery,Pipeline Pump,298.33,308.27,1488,34.09,42,55.72,2.69,25.78,Healthy
+IOCL_COMP_0317,IOCL,Panipat Refinery,Gas Compressor,299.24,309.3,1515,40.7,34,45.79,2.13,24.82,Healthy
+IOCL_COMP_0318,IOCL,Panipat Refinery,Centrifugal Pump,301.38,312.45,1195,50.42,172,53.77,3.34,39.08,Warning
+IOCL_COMP_0319,IOCL,Panipat Refinery,Gas Compressor,301.3,312.81,1253,53.49,174,49.9,4.87,38.23,Warning
+IOCL_COMP_0320,IOCL,Panipat Refinery,Pipeline Pump,299.15,309.2,1455,31.48,31,54.45,2.38,21.23,Healthy
+IOCL_COMP_0321,IOCL,Panipat Refinery,Pipeline Pump,298.14,307.24,1581,34.68,11,43.24,1.26,17.74,Healthy
+IOCL_COMP_0322,IOCL,Panipat Refinery,Pipeline Pump,298.4,307.7,1667,37.48,80,50.88,1.91,20.85,Healthy
+IOCL_COMP_0323,IOCL,Panipat Refinery,Centrifugal Pump,296.98,307.42,1381,45.35,1,46.31,2.53,19.51,Healthy
+IOCL_COMP_0324,IOCL,Panipat Refinery,Motor,302.38,313.82,1633,55.33,149,72.7,3.97,39.49,Warning
+IOCL_COMP_0325,IOCL,Panipat Refinery,Pipeline Pump,299.0,307.13,1348,41.73,17,41.44,2.21,27.63,Healthy
+IOCL_COMP_0326,IOCL,Panipat Refinery,Gas Compressor,297.34,306.96,1376,37.19,83,48.51,1.85,30.7,Healthy
+IOCL_COMP_0327,IOCL,Panipat Refinery,Motor,300.17,309.34,1563,47.46,32,53.66,1.79,26.22,Healthy
+IOCL_COMP_0328,IOCL,Panipat Refinery,Gas Compressor,297.85,308.34,1885,41.77,58,50.83,2.34,18.16,Healthy
+IOCL_COMP_0329,IOCL,Panipat Refinery,Motor,297.28,306.81,1939,35.97,48,44.3,2.58,20.21,Healthy
+IOCL_COMP_0330,IOCL,Panipat Refinery,Pipeline Pump,300.0,310.03,1268,42.35,81,46.02,2.77,21.58,Healthy
+IOCL_COMP_0331,IOCL,Panipat Refinery,Gas Compressor,300.63,309.95,1515,41.11,73,43.71,2.14,23.1,Healthy
+IOCL_COMP_0332,IOCL,Panipat Refinery,Gas Compressor,298.56,308.62,1579,33.21,81,45.22,1.94,23.82,Healthy
+IOCL_COMP_0333,IOCL,Panipat Refinery,Motor,298.89,307.44,1418,35.76,14,43.72,2.81,24.08,Healthy
+IOCL_COMP_0334,IOCL,Panipat Refinery,Gas Compressor,297.92,307.91,1331,36.64,59,43.31,1.86,13.76,Healthy
+IOCL_COMP_0335,IOCL,Panipat Refinery,Gas Compressor,300.26,310.92,1787,49.1,86,51.36,1.77,19.85,Healthy
+IOCL_COMP_0336,IOCL,Panipat Refinery,Centrifugal Pump,298.58,310.57,1484,53.78,64,47.22,2.67,30.79,Healthy
+IOCL_COMP_0337,IOCL,Panipat Refinery,Motor,303.86,314.04,1160,73.34,218,70.43,7.05,48.34,Critical
+IOCL_COMP_0338,IOCL,Panipat Refinery,Centrifugal Pump,303.29,313.51,1440,59.97,101,68.97,4.12,23.38,Warning
+IOCL_COMP_0339,IOCL,Panipat Refinery,Gas Compressor,298.74,307.91,1576,35.11,11,41.29,2.34,21.75,Healthy
+IOCL_COMP_0340,IOCL,Panipat Refinery,Motor,297.94,308.93,1542,38.63,47,45.8,2.23,29.4,Healthy
+IOCL_COMP_0341,IOCL,Panipat Refinery,Centrifugal Pump,299.32,309.81,1301,30.99,61,46.98,1.64,19.74,Healthy
+IOCL_COMP_0342,IOCL,Panipat Refinery,Centrifugal Pump,296.88,306.68,1537,31.66,10,48.39,1.78,28.36,Healthy
+IOCL_COMP_0343,IOCL,Panipat Refinery,Motor,299.34,309.5,1297,37.27,58,41.82,1.95,21.02,Healthy
+IOCL_COMP_0344,IOCL,Panipat Refinery,Motor,296.89,306.9,1653,45.26,1,44.18,2.01,24.74,Healthy
+IOCL_COMP_0345,IOCL,Panipat Refinery,Pipeline Pump,300.52,310.29,1826,52.82,189,42.87,3.73,20.16,Warning
+IOCL_COMP_0346,IOCL,Panipat Refinery,Gas Compressor,299.47,308.74,1465,45.39,79,39.25,1.34,23.09,Healthy
+IOCL_COMP_0347,IOCL,Panipat Refinery,Centrifugal Pump,298.15,307.14,1588,36.81,51,50.75,2.1,24.83,Healthy
+IOCL_COMP_0348,IOCL,Panipat Refinery,Pipeline Pump,299.09,308.83,1520,46.39,66,44.4,2.68,29.78,Healthy
+IOCL_COMP_0349,IOCL,Panipat Refinery,Motor,297.32,305.57,1744,38.89,76,44.27,2.59,20.55,Healthy
+IOCL_COMP_0350,IOCL,Panipat Refinery,Motor,299.13,308.24,1530,46.71,81,49.06,2.62,28.53,Healthy
+IOCL_COMP_0351,IOCL,Panipat Refinery,Motor,295.7,305.0,1687,25.6,0,46.37,2.17,29.88,Healthy
+IOCL_COMP_0352,IOCL,Panipat Refinery,Gas Compressor,303.75,314.52,1215,69.23,232,80.39,6.2,45.72,Critical
+IOCL_COMP_0353,IOCL,Panipat Refinery,Pipeline Pump,298.02,308.69,1576,44.31,47,48.97,2.19,21.47,Healthy
+IOCL_COMP_0354,IOCL,Panipat Refinery,Gas Compressor,303.22,314.23,1176,56.45,132,39.01,3.74,38.81,Warning
+IOCL_COMP_0355,IOCL,Panipat Refinery,Gas Compressor,302.12,310.2,1283,57.71,153,61.72,4.97,32.95,Warning
+IOCL_COMP_0356,IOCL,Panipat Refinery,Pipeline Pump,296.9,306.74,1322,23.22,23,42.57,2.75,22.92,Healthy
+IOCL_COMP_0357,IOCL,Panipat Refinery,Pipeline Pump,297.88,306.45,1718,20.62,2,45.23,1.97,24.92,Healthy
+IOCL_COMP_0358,IOCL,Panipat Refinery,Centrifugal Pump,302.91,313.23,1160,66.13,203,79.76,5.79,46.81,Critical
+IOCL_COMP_0359,IOCL,Panipat Refinery,Gas Compressor,302.96,313.35,1484,53.62,142,61.48,3.0,20.81,Warning
+IOCL_COMP_0360,IOCL,Panipat Refinery,Centrifugal Pump,299.02,309.4,1455,49.92,59,45.7,2.21,26.38,Healthy
+IOCL_COMP_0361,IOCL,Panipat Refinery,Pipeline Pump,298.12,307.6,1280,50.42,74,50.11,2.23,36.47,Healthy
+IOCL_COMP_0362,IOCL,Panipat Refinery,Motor,300.7,311.04,1184,51.83,129,54.78,3.73,27.03,Warning
+IOCL_COMP_0363,IOCL,Panipat Refinery,Pipeline Pump,298.86,308.68,1686,41.77,21,49.38,2.34,24.54,Healthy
+IOCL_COMP_0364,IOCL,Panipat Refinery,Motor,302.75,313.38,1312,67.24,135,54.18,4.51,36.07,Warning
+IOCL_COMP_0365,IOCL,Panipat Refinery,Motor,297.53,307.25,1461,26.33,73,44.74,2.13,29.06,Healthy
+IOCL_COMP_0366,IOCL,Panipat Refinery,Gas Compressor,295.38,305.89,1449,41.62,2,47.93,1.9,23.59,Healthy
+IOCL_COMP_0367,IOCL,Panipat Refinery,Motor,303.34,313.83,1534,62.52,90,63.34,2.77,39.58,Warning
+IOCL_COMP_0368,IOCL,Panipat Refinery,Centrifugal Pump,304.7,314.92,1160,79.88,248,64.34,8.15,45.71,Critical
+IOCL_COMP_0369,IOCL,Panipat Refinery,Pipeline Pump,298.45,307.41,1547,29.34,26,46.02,2.46,25.02,Healthy
+IOCL_COMP_0370,IOCL,Panipat Refinery,Pipeline Pump,299.52,309.52,1452,43.97,21,47.16,1.42,31.39,Healthy
+IOCL_COMP_0371,IOCL,Panipat Refinery,Motor,301.92,312.09,1550,50.8,177,45.64,3.66,40.63,Warning
+IOCL_COMP_0372,IOCL,Panipat Refinery,Motor,298.19,309.29,1684,35.87,61,47.17,2.16,20.67,Healthy
+IOCL_COMP_0373,IOCL,Panipat Refinery,Motor,298.87,307.52,1515,35.58,22,53.14,1.08,22.47,Healthy
+IOCL_COMP_0374,IOCL,Panipat Refinery,Motor,299.65,309.62,1873,43.3,52,45.95,2.12,22.58,Healthy
+IOCL_COMP_0375,IOCL,Panipat Refinery,Gas Compressor,296.9,306.24,1632,47.81,16,36.99,2.69,23.44,Healthy
+IOCL_COMP_0376,IOCL,Panipat Refinery,Centrifugal Pump,302.1,311.98,1178,69.67,233,77.07,6.45,38.35,Critical
+IOCL_COMP_0377,IOCL,Panipat Refinery,Pipeline Pump,298.54,308.72,1407,45.21,24,44.89,1.57,21.83,Healthy
+IOCL_COMP_0378,IOCL,Panipat Refinery,Pipeline Pump,301.87,311.81,1507,72.14,138,59.68,5.19,39.18,Warning
+IOCL_COMP_0379,IOCL,Panipat Refinery,Pipeline Pump,298.53,307.51,1513,32.99,3,45.99,1.63,22.85,Healthy
+IOCL_COMP_0380,IOCL,Panipat Refinery,Motor,298.36,306.87,1415,25.84,3,49.22,2.25,25.03,Healthy
+IOCL_COMP_0381,IOCL,Panipat Refinery,Gas Compressor,298.8,308.42,1345,43.94,85,52.09,2.47,21.57,Healthy
+IOCL_COMP_0382,IOCL,Panipat Refinery,Pipeline Pump,301.51,312.53,1263,53.21,111,38.63,3.96,34.46,Warning
+IOCL_COMP_0383,IOCL,Panipat Refinery,Gas Compressor,303.76,313.33,1254,47.76,155,53.49,5.03,41.39,Warning
+IOCL_COMP_0384,IOCL,Panipat Refinery,Centrifugal Pump,297.63,306.71,1785,46.97,59,47.47,1.3,18.77,Healthy
+IOCL_COMP_0385,IOCL,Panipat Refinery,Gas Compressor,299.16,307.51,1492,50.95,12,46.91,2.74,26.6,Healthy
+IOCL_COMP_0386,IOCL,Panipat Refinery,Motor,298.15,308.05,1378,30.24,38,55.53,1.51,28.31,Healthy
+IOCL_COMP_0387,IOCL,Panipat Refinery,Centrifugal Pump,298.47,308.92,1442,42.54,39,37.77,2.22,14.13,Healthy
+IOCL_COMP_0388,IOCL,Panipat Refinery,Centrifugal Pump,299.53,310.02,1316,28.64,27,44.56,2.09,15.87,Healthy
+IOCL_COMP_0389,IOCL,Panipat Refinery,Centrifugal Pump,298.87,308.65,1644,39.79,22,45.29,1.03,24.53,Healthy
+IOCL_COMP_0390,IOCL,Panipat Refinery,Gas Compressor,297.81,308.19,1805,37.7,5,50.77,1.28,24.98,Healthy
+IOCL_COMP_0391,IOCL,Panipat Refinery,Gas Compressor,299.98,309.54,1506,46.47,23,47.54,1.45,34.21,Healthy
+IOCL_COMP_0392,IOCL,Panipat Refinery,Motor,298.42,308.7,1598,36.48,3,47.08,1.88,19.54,Healthy
+IOCL_COMP_0393,IOCL,Panipat Refinery,Pipeline Pump,298.24,308.71,1489,35.16,86,45.72,1.23,23.36,Healthy
+IOCL_COMP_0394,IOCL,Panipat Refinery,Centrifugal Pump,299.91,308.95,1446,30.81,18,55.21,1.57,26.25,Healthy
+IOCL_COMP_0395,IOCL,Panipat Refinery,Gas Compressor,301.85,311.25,1160,61.88,123,47.92,4.51,34.57,Warning
+IOCL_COMP_0396,IOCL,Panipat Refinery,Motor,299.07,308.32,1374,43.72,2,44.85,0.62,26.6,Healthy
+IOCL_COMP_0397,IOCL,Panipat Refinery,Motor,299.06,310.17,1553,45.97,64,48.77,2.79,19.75,Healthy
+IOCL_COMP_0398,IOCL,Panipat Refinery,Pipeline Pump,299.31,309.16,1757,34.54,56,58.35,3.06,25.13,Healthy
+IOCL_COMP_0399,IOCL,Panipat Refinery,Motor,305.0,315.0,1160,76.28,234,74.19,6.77,45.07,Critical
+IOCL_COMP_0400,IOCL,Panipat Refinery,Pipeline Pump,301.81,311.71,1506,62.96,176,62.61,4.52,26.51,Warning
+IOCL_COMP_0401,IOCL,Panipat Refinery,Gas Compressor,304.64,315.0,1391,61.54,217,68.89,6.26,46.04,Critical
+IOCL_COMP_0402,IOCL,Panipat Refinery,Motor,301.77,313.09,1162,46.67,165,49.81,3.91,27.86,Warning
+IOCL_COMP_0403,IOCL,Panipat Refinery,Gas Compressor,298.3,307.67,1707,37.52,79,53.31,1.9,23.9,Healthy
+IOCL_COMP_0404,IOCL,Panipat Refinery,Centrifugal Pump,298.49,309.06,1475,42.15,37,43.94,2.38,21.68,Healthy
+IOCL_COMP_0405,IOCL,Panipat Refinery,Motor,298.57,309.79,1342,26.19,43,44.92,1.31,18.47,Healthy
+IOCL_COMP_0406,IOCL,Panipat Refinery,Motor,298.49,308.11,1480,33.22,51,56.25,1.63,18.71,Healthy
+IOCL_COMP_0407,IOCL,Panipat Refinery,Centrifugal Pump,298.24,309.87,1455,44.77,5,53.41,1.74,21.03,Healthy
+IOCL_COMP_0408,IOCL,Panipat Refinery,Pipeline Pump,304.6,314.56,1160,57.32,246,76.76,6.74,44.03,Critical
+IOCL_COMP_0409,IOCL,Panipat Refinery,Motor,300.9,311.02,1235,55.94,173,62.67,6.02,33.9,Warning
+IOCL_COMP_0410,IOCL,Panipat Refinery,Pipeline Pump,297.5,306.16,1486,25.22,84,48.07,1.61,16.18,Healthy
+IOCL_COMP_0411,IOCL,Panipat Refinery,Pipeline Pump,297.85,306.54,1711,32.17,17,53.45,1.63,21.84,Healthy
+IOCL_COMP_0412,IOCL,Panipat Refinery,Gas Compressor,299.21,309.83,1533,42.23,81,51.73,2.1,23.43,Healthy
+IOCL_COMP_0413,IOCL,Panipat Refinery,Pipeline Pump,302.6,313.13,1279,65.22,122,46.58,5.52,33.89,Warning
+IOCL_COMP_0414,IOCL,Panipat Refinery,Gas Compressor,301.6,310.77,1326,57.68,110,63.41,4.04,23.04,Warning
+IOCL_COMP_0415,IOCL,Panipat Refinery,Gas Compressor,300.96,310.09,1806,30.53,87,47.09,2.31,20.72,Healthy
+IOCL_COMP_0416,IOCL,Panipat Refinery,Motor,302.08,312.94,1304,60.27,112,70.63,4.09,42.65,Warning
+IOCL_COMP_0417,IOCL,Panipat Refinery,Gas Compressor,299.42,309.81,1357,39.71,62,48.04,1.57,25.43,Healthy
+IOCL_COMP_0418,IOCL,Panipat Refinery,Gas Compressor,301.93,312.37,1334,52.06,129,59.12,3.68,47.28,Warning
+IOCL_COMP_0419,IOCL,Panipat Refinery,Motor,297.8,307.39,1917,27.44,56,50.13,2.12,25.33,Healthy
+IOCL_COMP_0420,IOCL,Panipat Refinery,Pipeline Pump,304.03,315.0,1160,70.97,228,57.09,7.1,40.24,Critical
+IOCL_COMP_0421,IOCL,Panipat Refinery,Pipeline Pump,296.48,306.8,1244,39.19,27,41.87,1.58,28.62,Healthy
+IOCL_COMP_0422,IOCL,Panipat Refinery,Pipeline Pump,303.15,314.9,1218,66.99,156,46.28,4.8,31.53,Warning
+IOCL_COMP_0423,IOCL,Panipat Refinery,Centrifugal Pump,299.24,309.99,1714,39.72,27,48.66,2.26,25.22,Healthy
+IOCL_COMP_0424,IOCL,Panipat Refinery,Pipeline Pump,298.74,309.42,1257,36.95,85,41.08,2.14,30.57,Healthy
+IOCL_COMP_0425,IOCL,Panipat Refinery,Centrifugal Pump,298.65,309.26,1177,33.82,83,49.82,0.55,20.09,Healthy
+IOCL_COMP_0426,IOCL,Panipat Refinery,Pipeline Pump,303.0,313.8,1499,56.72,184,62.44,3.95,34.58,Warning
+IOCL_COMP_0427,IOCL,Panipat Refinery,Pipeline Pump,305.0,315.0,1317,67.96,234,64.37,8.28,48.26,Critical
+IOCL_COMP_0428,IOCL,Panipat Refinery,Pipeline Pump,297.74,308.08,1354,43.07,74,54.89,2.82,26.83,Healthy
+IOCL_COMP_0429,IOCL,Panipat Refinery,Pipeline Pump,298.74,310.45,1393,37.53,43,55.07,2.31,33.92,Healthy
+IOCL_COMP_0430,IOCL,Panipat Refinery,Centrifugal Pump,297.31,308.29,1334,36.43,83,47.67,2.52,26.46,Healthy
+IOCL_COMP_0431,IOCL,Panipat Refinery,Pipeline Pump,298.02,308.99,2274,43.53,36,48.5,1.35,21.45,Healthy
+IOCL_COMP_0432,IOCL,Panipat Refinery,Pipeline Pump,297.86,307.85,1870,47.98,60,47.21,1.4,29.35,Healthy
+IOCL_COMP_0433,IOCL,Panipat Refinery,Gas Compressor,296.43,307.0,1734,18.59,67,43.88,1.94,26.94,Healthy
+IOCL_COMP_0434,IOCL,Panipat Refinery,Pipeline Pump,301.17,312.25,1270,59.34,93,49.11,3.12,37.78,Warning
+IOCL_COMP_0435,IOCL,Panipat Refinery,Motor,299.61,309.18,1406,48.89,3,40.39,2.63,29.28,Healthy
+IOCL_COMP_0436,IOCL,Panipat Refinery,Gas Compressor,297.67,307.02,1512,27.64,72,43.19,2.32,26.6,Healthy
+IOCL_COMP_0437,IOCL,Panipat Refinery,Motor,302.68,313.54,1606,59.55,172,66.47,4.58,38.9,Warning
+IOCL_COMP_0438,IOCL,Panipat Refinery,Motor,298.35,308.32,1506,41.55,74,51.17,2.2,23.29,Healthy
+IOCL_COMP_0439,IOCL,Panipat Refinery,Motor,299.82,310.1,1366,36.45,72,39.28,2.02,23.21,Healthy
+IOCL_COMP_0440,IOCL,Panipat Refinery,Gas Compressor,303.58,313.16,1470,72.49,180,66.62,4.17,28.33,Warning
+IOCL_COMP_0441,IOCL,Panipat Refinery,Centrifugal Pump,298.01,307.46,1420,35.39,10,47.49,2.24,19.05,Healthy
+IOCL_COMP_0442,IOCL,Panipat Refinery,Gas Compressor,301.84,312.18,1662,56.86,173,45.09,4.53,36.73,Warning
+IOCL_COMP_0443,IOCL,Panipat Refinery,Centrifugal Pump,303.35,315.0,1160,73.3,213,73.6,7.6,55.24,Critical
+IOCL_COMP_0444,IOCL,Panipat Refinery,Motor,297.83,308.71,1436,39.31,63,41.53,1.48,24.21,Healthy
+IOCL_COMP_0445,IOCL,Panipat Refinery,Motor,303.01,314.11,1160,76.4,200,69.18,5.88,45.45,Critical
+IOCL_COMP_0446,IOCL,Panipat Refinery,Pipeline Pump,300.02,310.02,1522,42.73,61,42.98,1.36,25.63,Healthy
+IOCL_COMP_0447,IOCL,Panipat Refinery,Gas Compressor,303.43,314.73,1232,63.73,242,67.05,6.1,55.66,Critical
+IOCL_COMP_0448,IOCL,Panipat Refinery,Gas Compressor,297.99,308.46,1305,32.62,49,48.52,2.23,23.61,Healthy
+IOCL_COMP_0449,IOCL,Panipat Refinery,Motor,298.59,308.46,1496,34.59,58,49.16,2.21,24.79,Healthy
+IOCL_COMP_0450,IOCL,Panipat Refinery,Motor,301.0,311.82,1600,56.22,120,54.71,4.38,28.32,Warning
+IOCL_COMP_0451,IOCL,Panipat Refinery,Motor,298.72,308.19,1519,33.78,8,54.56,1.9,24.62,Healthy
+IOCL_COMP_0452,IOCL,Panipat Refinery,Centrifugal Pump,301.26,311.91,1396,42.57,145,60.02,4.16,34.65,Warning
+IOCL_COMP_0453,IOCL,Panipat Refinery,Gas Compressor,298.81,309.88,1337,35.26,45,51.33,2.24,25.84,Healthy
+IOCL_COMP_0454,IOCL,Panipat Refinery,Pipeline Pump,304.63,315.0,1160,65.04,204,69.49,7.71,47.44,Critical
+IOCL_COMP_0455,IOCL,Panipat Refinery,Motor,304.05,314.63,1162,73.62,223,78.73,5.99,49.57,Critical
+IOCL_COMP_0456,IOCL,Panipat Refinery,Gas Compressor,299.06,308.91,1831,34.66,83,48.89,2.3,20.5,Healthy
+IOCL_COMP_0457,IOCL,Panipat Refinery,Motor,301.73,311.82,1275,63.9,90,53.21,4.65,35.57,Warning
+IOCL_COMP_0458,IOCL,Panipat Refinery,Centrifugal Pump,304.56,314.52,1242,67.46,204,72.07,5.71,45.73,Critical
+IOCL_COMP_0459,IOCL,Panipat Refinery,Gas Compressor,297.53,307.05,1631,41.84,50,35.83,3.01,26.11,Healthy
+IOCL_COMP_0460,IOCL,Panipat Refinery,Pipeline Pump,298.33,306.84,1671,33.48,37,50.72,1.89,24.95,Healthy
+IOCL_COMP_0461,IOCL,Panipat Refinery,Centrifugal Pump,302.86,312.41,1731,72.9,109,71.06,5.22,33.58,Warning
+IOCL_COMP_0462,IOCL,Panipat Refinery,Pipeline Pump,298.38,307.14,1820,47.03,16,47.84,1.39,21.66,Healthy
+IOCL_COMP_0463,IOCL,Panipat Refinery,Gas Compressor,299.63,308.35,1601,31.25,66,40.87,2.12,22.66,Healthy
+IOCL_COMP_0464,IOCL,Panipat Refinery,Gas Compressor,296.98,306.37,1160,20.53,60,56.99,3.04,24.37,Healthy
+IOCL_COMP_0465,IOCL,Panipat Refinery,Motor,298.14,308.84,1457,39.9,33,47.94,1.72,21.9,Healthy
+IOCL_COMP_0466,IOCL,Panipat Refinery,Centrifugal Pump,301.02,311.88,1269,56.02,130,69.07,4.07,38.6,Warning
+IOCL_COMP_0467,IOCL,Panipat Refinery,Pipeline Pump,297.94,307.96,1896,22.32,32,47.52,2.73,20.86,Healthy
+IOCL_COMP_0468,IOCL,Panipat Refinery,Pipeline Pump,298.9,309.05,1831,41.59,57,54.64,1.82,21.04,Healthy
+IOCL_COMP_0469,IOCL,Panipat Refinery,Motor,297.11,307.5,1480,32.63,58,50.49,1.43,27.08,Healthy
+IOCL_COMP_0470,IOCL,Panipat Refinery,Motor,299.89,309.58,1663,39.44,37,51.72,2.05,17.35,Healthy
+IOCL_COMP_0471,IOCL,Panipat Refinery,Centrifugal Pump,298.39,309.03,1674,31.81,10,43.43,2.33,22.79,Healthy
+IOCL_COMP_0472,IOCL,Panipat Refinery,Centrifugal Pump,298.29,309.1,1626,40.3,17,46.13,2.12,28.77,Healthy
+IOCL_COMP_0473,IOCL,Panipat Refinery,Centrifugal Pump,302.53,313.07,1371,68.79,140,67.61,4.26,35.07,Warning
+IOCL_COMP_0474,IOCL,Panipat Refinery,Motor,298.29,308.54,1703,43.99,48,42.45,2.49,23.64,Healthy
+IOCL_COMP_0475,IOCL,Panipat Refinery,Centrifugal Pump,300.1,311.27,1597,43.67,61,51.84,2.7,26.91,Healthy
+IOCL_COMP_0476,IOCL,Panipat Refinery,Pipeline Pump,305.0,315.0,1160,64.85,210,76.04,6.72,46.98,Critical
+IOCL_COMP_0477,IOCL,Panipat Refinery,Centrifugal Pump,301.43,311.04,1415,50.73,189,59.17,3.13,32.74,Warning
+IOCL_COMP_0478,IOCL,Panipat Refinery,Pipeline Pump,299.23,308.6,1339,38.13,6,50.81,2.2,21.95,Healthy
+IOCL_COMP_0479,IOCL,Panipat Refinery,Gas Compressor,300.3,310.47,1256,39.63,69,58.22,1.36,24.12,Healthy
+IOCL_COMP_0480,IOCL,Panipat Refinery,Centrifugal Pump,298.62,308.77,1755,38.68,70,54.39,1.94,22.6,Healthy
+IOCL_COMP_0481,IOCL,Panipat Refinery,Gas Compressor,296.32,306.54,1919,41.67,71,51.43,1.79,23.02,Healthy
+IOCL_COMP_0482,IOCL,Panipat Refinery,Motor,300.91,312.1,1694,38.28,18,49.05,1.62,18.21,Healthy
+IOCL_COMP_0483,IOCL,Panipat Refinery,Centrifugal Pump,298.56,308.33,1285,37.7,64,46.41,1.41,22.52,Healthy
+IOCL_COMP_0484,IOCL,Panipat Refinery,Pipeline Pump,297.76,308.5,1207,22.11,47,48.02,2.05,25.62,Healthy
+IOCL_COMP_0485,IOCL,Panipat Refinery,Pipeline Pump,301.08,311.58,1274,67.41,189,55.41,4.16,46.38,Warning
+IOCL_COMP_0486,IOCL,Panipat Refinery,Motor,302.56,313.57,1474,57.32,166,59.55,4.28,31.12,Warning
+IOCL_COMP_0487,IOCL,Panipat Refinery,Motor,300.93,311.9,1604,44.85,15,43.65,1.87,27.79,Healthy
+IOCL_COMP_0488,IOCL,Panipat Refinery,Centrifugal Pump,297.57,307.19,1942,38.77,65,57.12,2.1,24.98,Healthy
+IOCL_COMP_0489,IOCL,Panipat Refinery,Centrifugal Pump,299.63,310.72,1363,35.18,35,52.58,1.94,22.03,Healthy
+IOCL_COMP_0490,IOCL,Panipat Refinery,Centrifugal Pump,299.82,309.46,1588,28.33,71,43.52,2.06,24.13,Healthy
+IOCL_COMP_0491,IOCL,Panipat Refinery,Motor,297.64,306.79,1631,22.26,60,42.94,1.07,25.68,Healthy
+IOCL_COMP_0492,IOCL,Panipat Refinery,Pipeline Pump,298.54,309.85,1851,23.55,86,49.49,1.51,19.23,Healthy
+IOCL_COMP_0493,IOCL,Panipat Refinery,Gas Compressor,299.97,310.45,1421,43.64,79,36.78,1.62,20.7,Healthy
+IOCL_COMP_0494,IOCL,Panipat Refinery,Pipeline Pump,304.06,314.77,1162,70.11,198,76.32,7.15,43.29,Critical
+IOCL_COMP_0495,IOCL,Panipat Refinery,Motor,299.49,309.05,1539,47.3,2,42.49,2.9,18.64,Healthy
+IOCL_COMP_0496,IOCL,Panipat Refinery,Pipeline Pump,297.36,309.11,1459,33.99,85,46.15,2.05,22.69,Healthy
+IOCL_COMP_0497,IOCL,Panipat Refinery,Centrifugal Pump,295.0,305.0,1553,46.31,57,54.55,1.91,27.26,Healthy
+IOCL_COMP_0498,IOCL,Panipat Refinery,Pipeline Pump,302.77,312.81,1160,53.52,96,69.2,4.34,41.48,Warning
+IOCL_COMP_0499,IOCL,Panipat Refinery,Motor,299.76,309.24,1590,39.73,15,51.31,2.13,21.04,Healthy
+IOCL_COMP_0500,IOCL,Panipat Refinery,Gas Compressor,300.58,310.11,1219,41.99,72,46.34,1.93,26.22,Healthy

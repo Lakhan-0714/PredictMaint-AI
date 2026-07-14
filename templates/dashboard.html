@@ -1,0 +1,151 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="topbar">
+    <div>
+        <h1>Factory Control Center</h1>
+        <p>Real-time Monitoring & Predictive Analytics</p>
+    </div>
+    <div class="profile">🔔 Lakhan | Admin User</div>
+</div>
+
+<div class="hero">
+    <div class="hero-content">
+        <h2>AI Powered Predictive Maintenance</h2>
+        <p>Real-time Monitoring • Failure Prediction • Industrial Analytics</p>
+
+        <div class="hero-buttons">
+            <a href="/predict" class="btn-primary">Predict Machine</a>
+            <a href="/upload" class="btn-secondary">Upload Dataset</a>
+        </div>
+    </div>
+</div>
+
+<div class="cards">
+    <div class="card blue">
+        <h3>Total Machines</h3>
+        <h2>{{ summary.total }}</h2>
+        <p>{{ summary.filename }}</p>
+    </div>
+
+    <div class="card green">
+        <h3>Healthy Machines</h3>
+        <h2>{{ summary.healthy }}</h2>
+        <p>
+            {% if summary.total > 0 %}
+                {{ "%.2f"|format(summary.healthy * 100 / summary.total) }}%
+            {% else %}
+                0%
+            {% endif %}
+        </p>
+    </div>
+
+    <div class="card yellow">
+        <h3>At Risk Machines</h3>
+        <h2>{{ summary.warning }}</h2>
+        <p>
+            {% if summary.total > 0 %}
+                {{ "%.2f"|format(summary.warning * 100 / summary.total) }}%
+            {% else %}
+                0%
+            {% endif %}
+        </p>
+    </div>
+
+    <div class="card red">
+        <h3>Failed Machines</h3>
+        <h2>{{ summary.critical }}</h2>
+        <p>
+            {% if summary.total > 0 %}
+                {{ "%.2f"|format(summary.critical * 100 / summary.total) }}%
+            {% else %}
+                0%
+            {% endif %}
+        </p>
+    </div>
+</div>
+
+<div class="grid">
+    <div class="panel large">
+        <h3>Failure Trend</h3>
+        <canvas id="failureChart"></canvas>
+    </div>
+
+    <div class="panel">
+        <h3>Machine Health</h3>
+        <canvas id="dashboardHealthChart"></canvas>
+    </div>
+
+    <div class="panel">
+        <h3>Recent Alerts</h3>
+
+        {% if summary.critical > 0 %}
+            <p>🔴 {{ summary.critical }} critical machines need immediate maintenance.</p>
+        {% endif %}
+
+        {% if summary.warning > 0 %}
+            <p>🟡 {{ summary.warning }} machines require inspection soon.</p>
+        {% endif %}
+
+        {% if summary.critical == 0 and summary.warning == 0 %}
+            <p>🟢 All systems are operating normally.</p>
+        {% endif %}
+
+        <p>📁 Last Dataset: {{ summary.filename }}</p>
+        <p>⏱ Updated: {{ summary.updated_at }}</p>
+        <p>⚙ Overall Risk: {{ summary.overall_risk }}</p>
+    </div>
+</div>
+
+<script>
+const healthy = {{ summary.healthy }};
+const warning = {{ summary.warning }};
+const critical = {{ summary.critical }};
+
+new Chart(document.getElementById("dashboardHealthChart"), {
+    type: "doughnut",
+    data: {
+        labels: ["Healthy", "Warning", "Critical"],
+        datasets: [{
+            data: [healthy, warning, critical],
+            backgroundColor: ["#22c55e", "#facc15", "#ef4444"]
+        }]
+    }
+});
+
+new Chart(document.getElementById("failureChart"), {
+    type: "line",
+    data: {
+        labels: ["Day 1", "Day 5", "Day 10", "Day 15", "Day 20", "Day 25", "Today"],
+        datasets: [{
+            label: "Failure Trend",
+            data: [
+                Math.round(critical * 0.10),
+                Math.round(critical * 0.25),
+                Math.round(critical * 0.40),
+                Math.round(critical * 0.55),
+                Math.round(critical * 0.70),
+                Math.round(critical * 0.85),
+                critical
+            ],
+            borderColor: "#38bdf8",
+            backgroundColor: "rgba(56,189,248,0.2)",
+            fill: true,
+            tension: 0.4
+        }]
+    },
+    options: {
+        plugins: {
+            legend: {
+                labels: { color: "white" }
+            }
+        },
+        scales: {
+            x: { ticks: { color: "white" } },
+            y: { ticks: { color: "white" } }
+        }
+    }
+});
+</script>
+
+{% endblock %}

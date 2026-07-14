@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login | PredictMaint AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div style="min-height:100vh;display:flex;align-items:center;justify-content:center;background:#061426;">
+    <div class="form-panel" style="width:420px;">
+        <h1>PredictMaint AI</h1>
+        <p style="color:#94a3b8;">Login to your account</p>
+
+        <form method="POST">
+            <label>Username</label>
+            <input type="text" name="username" required>
+
+            <label>Password</label>
+            <input type="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        {% if error %}
+        <div class="result" style="background:#4b1113;border:1px solid red;">
+            <p>{{ error }}</p>
+        </div>
+        {% endif %}
+
+        <p style="margin-top:20px;color:#94a3b8;">
+            New user?
+            <a href="/register" style="color:#38bdf8;">Create Account</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

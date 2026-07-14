@@ -1,0 +1,30 @@
+{
+    "active_factory": "BPCL Unit",
+    "factories": [
+        {
+            "name": "ONGC Plant",
+            "location": "Dehradun",
+            "status": "Active"
+        },
+        {
+            "name": "IOCL Refinery",
+            "location": "Panipat",
+            "status": "Active"
+        },
+        {
+            "name": "BPCL Unit",
+            "location": "Mumbai",
+            "status": "Active"
+        },
+        {
+            "name": "Shell Facility",
+            "location": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "name": "Reliance Plant",
+            "location": "Jamnagar",
+            "status": "Active"
+        }
+    ]
+}

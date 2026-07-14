@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="topbar">
+    <div>
+        <h1>Machine Details</h1>
+        <p>Search, filter and analyze machine prediction results</p>
+    </div>
+    <div class="profile">⚙️ Machine Monitor</div>
+</div>
+
+<div class="panel">
+    <h2>Machine Records</h2>
+
+    <form method="GET" style="display:flex;gap:15px;flex-wrap:wrap;margin-top:20px;">
+        <input type="text" name="search" value="{{ search }}"
+               placeholder="Search Product ID"
+               style="padding:14px;border-radius:10px;border:1px solid #334155;background:#020617;color:white;">
+
+        <select name="status" style="padding:14px;border-radius:10px;background:#020617;color:white;border:1px solid #334155;">
+            <option value="">All Status</option>
+            <option value="Healthy" {% if status == "Healthy" %}selected{% endif %}>Healthy</option>
+            <option value="Warning" {% if status == "Warning" %}selected{% endif %}>Warning</option>
+            <option value="Critical" {% if status == "Critical" %}selected{% endif %}>Critical</option>
+        </select>
+
+        <select name="sort" style="padding:14px;border-radius:10px;background:#020617;color:white;border:1px solid #334155;">
+            <option value="">Default Sort</option>
+            <option value="high_risk" {% if sort == "high_risk" %}selected{% endif %}>Highest Risk First</option>
+        </select>
+
+        <button type="submit">Apply Filter</button>
+        <a href="/machines"><button type="button">Reset</button></a>
+    </form>
+</div>
+
+{% if error %}
+<div class="panel" style="margin-top:30px;">
+    <h2>{{ error }}</h2>
+    <a href="/upload"><button>Upload CSV</button></a>
+</div>
+{% endif %}
+
+{% if machines %}
+<div class="panel" style="margin-top:30px;">
+    <h2>Machine Prediction Table</h2>
+
+    <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;">
+            <thead>
+                <tr style="background:#0ea5e9;color:white;">
+                    <th style="padding:12px;">Product ID</th>
+                    <th style="padding:12px;">Air Temp</th>
+                    <th style="padding:12px;">Process Temp</th>
+                    <th style="padding:12px;">RPM</th>
+                    <th style="padding:12px;">Torque</th>
+                    <th style="padding:12px;">Tool Wear</th>
+                    <th style="padding:12px;">Probability</th>
+                    <th style="padding:12px;">Risk</th>
+                    <th style="padding:12px;">Recommendation</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for m in machines %}
+                <tr>
+                    <td style="padding:10px;border:1px solid #334155;">{{ m["Product ID"] }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ m["Air Temp [K]"] }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ m["Process Temp [K]"] }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ m["RPM"] }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ m["Torque [Nm]"] }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ m["Tool Wear [min]"] }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ m["Failure Probability (%)"] }}%</td>
+                    <td style="padding:10px;border:1px solid #334155;">
+                        {% if m["Risk Status"] == "Healthy" %}
+                            🟢 Healthy
+                        {% elif m["Risk Status"] == "Warning" %}
+                            🟡 Warning
+                        {% else %}
+                            🔴 Critical
+                        {% endif %}
+                    </td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ m["Recommendation"] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endif %}
+
+{% endblock %}

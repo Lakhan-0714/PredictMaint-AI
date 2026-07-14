@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="topbar">
+    <div>
+        <h1>Admin Panel</h1>
+        <p>Manage users and roles</p>
+    </div>
+    <div class="profile">🛡️ {{ session.username }} | {{ session.role }}</div>
+</div>
+
+{% if message %}
+<div class="result"><p>{{ message }}</p></div>
+{% endif %}
+
+<div class="panel">
+    <h2>Users List</h2>
+    <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;">
+            <thead>
+                <tr style="background:#0ea5e9;color:white;">
+                    <th style="padding:12px;">Username</th>
+                    <th style="padding:12px;">Name</th>
+                    <th style="padding:12px;">Role</th>
+                    <th style="padding:12px;">Created</th>
+                    <th style="padding:12px;">Update Role</th>
+                    <th style="padding:12px;">Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for username,u in users.items() %}
+                <tr>
+                    <td style="padding:10px;border:1px solid #334155;">{{ username }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ u.name }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ u.role }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">{{ u.created_at }}</td>
+                    <td style="padding:10px;border:1px solid #334155;">
+                        <form method="POST" style="display:flex;gap:8px;">
+                            <input type="hidden" name="username" value="{{ username }}">
+                            <select name="role" style="padding:10px;border-radius:8px;background:#020617;color:white;">
+                                <option {% if u.role=='Admin User' %}selected{% endif %}>Admin User</option>
+                                <option {% if u.role=='Engineer' %}selected{% endif %}>Engineer</option>
+                                <option {% if u.role=='Maintenance Manager' %}selected{% endif %}>Maintenance Manager</option>
+                                <option {% if u.role=='System Administrator' %}selected{% endif %}>System Administrator</option>
+                            </select>
+                            <button type="submit">Save</button>
+                        </form>
+                    </td>
+                    <td style="padding:10px;border:1px solid #334155;">
+                        {% if username != session.account_username %}
+                        <a href="/admin/delete_user/{{ username }}">
+                            <button style="background:#ef4444;">Delete</button>
+                        </a>
+                        {% else %}
+                        Current User
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="topbar">
+    <div>
+        <h1>Bulk Machine Prediction</h1>
+        <p>Upload machine sensor CSV for AI analysis</p>
+    </div>
+    <div class="profile">📂 CSV Analyzer</div>
+</div>
+
+<div class="panel">
+    <h2>Upload Machine Dataset</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <label>Select Company</label>
+        <select name="company" required>
+             <option value="ONGC">ONGC</option>
+             <option value="IOCL">IOCL</option>
+             <option value="BPCL">BPCL</option>
+             <option value="Shell">Shell</option>
+             <option value="Reliance">Reliance</option>
+             <option value="Other">Other</option>
+        </select>
+        <input type="file" name="csv_file" accept=".csv" required style="margin:20px 0;">
+        <br>
+        <button type="submit">Analyze CSV</button>
+    </form>
+
+    {% if error %}
+    <div class="result" style="background:#4b1113;border:1px solid red;margin-top:20px;">
+        <h3>{{ error }}</h3>
+    </div>
+    {% endif %}
+</div>
+
+{% if summary %}
+<div class="panel" style="margin-top:30px;">
+    <h2>🤖 AI Analysis Summary</h2>
+    <p><b>Dataset:</b> {{ summary.filename }}</p>
+    <p><b>Overall Risk:</b> {{ summary.overall_risk }}</p>
+</div>
+
+<div class="cards">
+    <div class="card blue">
+        <h3>Total Records</h3>
+        <h2>{{ summary.total }}</h2>
+        <p>Uploaded Machines</p>
+    </div>
+
+    <div class="card green">
+        <h3>Healthy</h3>
+        <h2>{{ summary.healthy }}</h2>
+        <p>Safe Machines</p>
+    </div>
+
+    <div class="card yellow">
+        <h3>Warning</h3>
+        <h2>{{ summary.warning }}</h2>
+        <p>Inspection Needed</p>
+    </div>
+
+    <div class="card red">
+        <h3>Critical</h3>
+        <h2>{{ summary.critical }}</h2>
+        <p>Immediate Action</p>
+    </div>
+</div>
+{% endif %}
+
+{% if results %}
+<div class="panel" style="margin-top:30px;">
+    <h2>Prediction Results</h2>
+
+    <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;">
+            <thead>
+                <tr style="background:#0ea5e9;color:white;">
+                    {% for col in results[0].keys() %}
+                    <th style="padding:12px;border:1px solid #1e293b;">
+                        {{ col }}
+                    </th>
+                    {% endfor %}
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for row in results %}
+                <tr>
+                    {% for key, value in row.items() %}
+                    <td style="padding:10px;border:1px solid #334155;">
+                        {% if key == "Risk Status" %}
+                            {% if value == "Healthy" %}
+                                🟢 Healthy
+                            {% elif value == "Warning" %}
+                                🟡 Warning
+                            {% else %}
+                                🔴 Critical
+                            {% endif %}
+                        {% else %}
+                            {{ value }}
+                        {% endif %}
+                    </td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    {% if download_file %}
+    <br>
+    <a href="{{ url_for('download', filename=download_file) }}">
+        <button>Download Prediction Report</button>
+    </a>
+    {% endif %}
+</div>
+{% endif %}
+
+{% endblock %}

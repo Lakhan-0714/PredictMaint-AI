@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PredictMaint AI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive_additions.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="brand">
+        <div class="brand-icon">⚙️</div>
+        <div>
+            <h2>PredictMaint <span>AI</span></h2>
+            <p>Industrial Predictive Maintenance</p>
+        </div>
+    </div>
+
+    <a href="/">🏠 Dashboard</a>
+    <a href="/predict">🤖 Prediction</a>
+    <a href="/upload">📂 Upload CSV</a>
+    <a href="/analytics">📊 Analytics</a>
+    <a href="/machines">⚙️ Machines</a>
+    <a href="/reports">📄 Reports</a>
+    <a href="/settings">⚙️ Settings</a>
+    <a href="/logout">🚪 Logout</a>
+    <a href="/notifications">🔔 Notifications</a>
+    <a href="/history">📈 Maintenance History</a>
+    <a href="/factories">🏭 Factories</a>
+    <a href="/calendar">📅 Calendar</a>
+    <a href="/admin/users">🛡️ Admin Panel</a>
+
+    <div class="sidebar-card">
+        <h4>System Status</h4>
+        <p>🟢 All Systems Operational</p>
+    </div>
+
+    <div class="sidebar-card">
+        <h4>AI Model</h4>
+        <p>Random Forest Classifier</p>
+        <small>PredictMaint AI v1.0</small>
+    </div>
+</div>
+
+<div class="main">
+    {% block content %}{% endblock %}
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

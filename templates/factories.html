@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="topbar">
+    <div>
+        <h1>Factories</h1>
+        <p>Manage multiple factory locations</p>
+    </div>
+    <div class="profile">🏭 Active: {{ data.active_factory }}</div>
+</div>
+
+<div class="grid">
+    <div class="panel">
+        <h2>Add Factory</h2>
+        <form method="POST">
+            <input type="hidden" name="action" value="add">
+
+            <label>Factory Name</label>
+            <input type="text" name="name" required>
+
+            <label>Location</label>
+            <input type="text" name="location" required>
+
+            <button type="submit">Add Factory</button>
+        </form>
+    </div>
+
+    <div class="panel">
+        <h2>Set Active Factory</h2>
+        <form method="POST">
+            <input type="hidden" name="action" value="set_active">
+
+            <select name="active_factory" style="padding:14px;border-radius:10px;background:#020617;color:white;border:1px solid #334155;width:100%;">
+                {% for f in data.factories %}
+                <option value="{{ f.name }}" {% if f.name==data.active_factory %}selected{% endif %}>
+                    {{ f.name }}
+                </option>
+                {% endfor %}
+            </select>
+
+            <button type="submit">Set Active</button>
+        </form>
+    </div>
+</div>
+
+<div class="panel" style="margin-top:30px;">
+    <h2>Factory List</h2>
+
+    {% for f in data.factories %}
+        <p>🏭 <b>{{ f.name }}</b> — {{ f.location }} — {{ f.status }}</p>
+    {% endfor %}
+</div>
+{% endblock %}

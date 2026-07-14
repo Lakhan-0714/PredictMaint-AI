@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="topbar">
+    <div>
+        <h1>Notifications</h1>
+        <p>System alerts and activity updates</p>
+    </div>
+    <div class="profile">🔔 Alert Center</div>
+</div>
+
+<div class="panel">
+    <h2>Recent Notifications</h2>
+
+    {% if notifications %}
+        {% for n in notifications %}
+        <div class="result" style="margin-top:15px;">
+            <h3>{{ n.title }}</h3>
+            <p>{{ n.message }}</p>
+            <p style="color:#94a3b8;">{{ n.time }} | {{ n.level }}</p>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p>No notifications yet.</p>
+    {% endif %}
+</div>
+{% endblock %}

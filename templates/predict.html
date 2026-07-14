@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="topbar">
+    <div>
+        <h1>AI Failure Prediction</h1>
+        <p>Enter equipment sensor values to predict machine failure risk</p>
+    </div>
+    <div class="profile">🤖 ML Model Active</div>
+</div>
+
+<div class="form-panel">
+    <form method="POST">
+
+        <label>Air Temperature [K]</label>
+        <input type="number" step="0.1" name="air_temp"
+               min="295" max="305"
+               placeholder="Example: 298.5" required>
+
+        <label>Process Temperature [K]</label>
+        <input type="number" step="0.1" name="process_temp"
+               min="305" max="315"
+               placeholder="Example: 308.7" required>
+
+        <label>Rotational Speed [rpm]</label>
+        <input type="number" name="rpm"
+               min="1160" max="2900"
+               placeholder="Example: 1550" required>
+
+        <label>Torque [Nm]</label>
+        <input type="number" step="0.1" name="torque"
+               min="3" max="80"
+               placeholder="Example: 42.5" required>
+
+        <label>Tool Wear [min]</label>
+        <input type="number" name="tool_wear"
+               min="0" max="250"
+               placeholder="Example: 120" required>
+
+        <button type="submit">Predict Failure</button>
+
+    </form>
+
+    {% if result %}
+    <div class="result">
+        <h2>Status: {{ result.status }}</h2>
+        <h3>Failure Probability: {{ result.probability }}%</h3>
+        <p>{{ result.recommendation }}</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

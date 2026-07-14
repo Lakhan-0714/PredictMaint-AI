@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .main {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .topbar {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .cards,
+    .grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .hero-content {
+        left: 25px;
+    }
+
+    .hero-content h2 {
+        font-size: 30px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    table {
+        font-size: 13px;
+    }
+}
